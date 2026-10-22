@@ -218,3 +218,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Libros originales
+*.epub
+*.pdf
+
+# Corpus completos
+datos/raw/
+datos/procesados/
+datos/literature_raw_corpus.tsv
+datos/literature_normalized_corpus.tsv
+
+# Mantener ejemplos pequeños
+!datos/demo/
