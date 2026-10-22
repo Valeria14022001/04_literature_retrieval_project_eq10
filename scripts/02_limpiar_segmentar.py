@@ -203,6 +203,15 @@ def es_linea_basura(linea):
     if len(limpia.split()) > 25:
         return False
 
+    # Una mención narrativa a «corrección» o «transcripción» no es un
+    # crédito editorial. Exigir etiqueta al inicio, dos puntos y un valor.
+    # Sin esa estructura, conservar la línea para evitar pérdida literaria.
+    if re.match(
+        r"^(?:correccion|transcripcion)(?:\s+(?:de estilo|de textos|ortografica))?\s*:\s*\S",
+        normal,
+    ):
+        return True
+
     basura_contiene = [
         "libro descargado en",
         "www.elejandria.com",
@@ -212,10 +221,6 @@ def es_linea_basura(linea):
         "fuente:",
         "traduccion:",
         "traducción:",
-        "transcripcion",
-        "transcripción",
-        "correccion",
-        "corrección",
         "edicion original",
         "edición original",
         "categoria:",
