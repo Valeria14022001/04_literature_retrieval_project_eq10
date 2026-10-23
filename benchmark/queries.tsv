@@ -1,0 +1,16 @@
+query_id	difficulty_level	query
+Q01	1	Personajes que escriben, reciben o leen una carta.
+Q02	1	Una conversación o transacción sobre dinero, precios o pagos.
+Q03	1	Descripción de la ropa o de cómo se viste una persona.
+Q04	1	Personajes que comen o beben durante una comida.
+Q05	1	Descripción de una habitación y sus muebles.
+Q06	2	Una experiencia de enseñanza, aprendizaje o disciplina escolar.
+Q07	2	Una práctica religiosa influye en la conducta o la experiencia de los personajes.
+Q08	2	Una persona necesita cuidados por su estado de salud.
+Q09	2	La música forma parte de una experiencia emocional o social.
+Q10	2	La apariencia física de alguien provoca una impresión o un juicio sobre esa persona.
+Q11	3	La subsistencia de una persona depende de la ayuda material de otras.
+Q12	3	Una persona disimula lo que siente para mantener una apariencia ante los demás.
+Q13	3	El recuerdo de una experiencia anterior modifica la manera de vivir o comprender el presente.
+Q14	3	Una diferencia de posición social condiciona la manera de tratar o valorar a alguien.
+Q15	3	La preocupación por la opinión ajena influye en lo que hace o siente una persona.

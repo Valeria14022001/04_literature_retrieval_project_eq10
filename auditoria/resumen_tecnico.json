@@ -1,0 +1,33 @@
+{
+  "fecha_utc": "2026-10-22T19:25:03.381556+00:00",
+  "corpus": "datos\\correccion_corpus\\v2\\literature_raw_corpus_v2.tsv",
+  "sha256_corpus": "e94fe3603fb9ba41d9ded0e89bb57977637c710fc8eaec57a476cfad52b6ab28",
+  "fragmentos": 300,
+  "obras": 33,
+  "autores": 27,
+  "longitud": {
+    "minimo": 731,
+    "maximo": 1483,
+    "media": 1074.92,
+    "mediana": 1067.5,
+    "fuera_objetivo": 17
+  },
+  "pares_exactos": 0,
+  "pares_similares": 0,
+  "alertas": 15,
+  "correspondencia": {
+    "Solo diferencias de espacios": 297,
+    "Literal": 3
+  },
+  "parametros": {
+    "corpus": "datos\\correccion_corpus\\v2\\literature_raw_corpus_v2.tsv",
+    "origen": "datos\\correccion_corpus\\v2\\fuentes_epub",
+    "salida": "datos\\correccion_corpus\\v2\\auditoria_tecnica",
+    "min_palabras": 700,
+    "max_palabras": 1300,
+    "ngrama": 5,
+    "similitud": 0.8,
+    "solapamiento": 0.2,
+    "min_compartidas": 50
+  }
+}

@@ -1,0 +1,11 @@
+datos/** -text
+benchmark/** -text
+auditoria/** -text
+vectorizacion/** -text
+resultados/** -text
+*.npz binary
+*.joblib binary
+*.pdf binary
+*.py text eol=lf
+*.md text eol=lf
+requirements.txt text eol=lf

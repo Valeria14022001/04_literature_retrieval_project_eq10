@@ -231,8 +231,8 @@ def run(args):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--corpus', type=Path, default=ROOT/'datos/literature_raw_corpus.tsv')
-    parser.add_argument('--origen', type=Path, default=ROOT/'textos_extraidos')
-    parser.add_argument('--salida', type=Path, default=ROOT/'datos/auditoria')
+    parser.add_argument('--origen', type=Path, default=ROOT/'datos/fuentes_epub')
+    parser.add_argument('--salida', type=Path, default=ROOT/'auditoria/revision_tecnica')
     parser.add_argument('--min-palabras', type=int, default=700)
     parser.add_argument('--max-palabras', type=int, default=1300)
     parser.add_argument('--ngrama', type=int, default=5)

@@ -8,8 +8,8 @@ import unicodedata
 
 
 CARPETAS = [
-    Path("descargas_elejandria/epub"),
-    Path("descargas_elejandria/pdf"),
+    Path("fuentes/epub"),
+    Path("fuentes/pdf"),
 ]
 
 RUTA_CATALOGO = Path("catalogo_libros.csv")

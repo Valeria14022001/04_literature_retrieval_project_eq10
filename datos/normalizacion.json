@@ -1,0 +1,10 @@
+{
+  "modelo": "es_core_news_sm",
+  "modelo_version": "3.8.0",
+  "spacy": "3.8.16",
+  "idioma": "es",
+  "politica_sha256": "88415ea44047f29c5a024bd7e613116c529847e066421750bd31bcede6822d56",
+  "sha256_original": "e94fe3603fb9ba41d9ded0e89bb57977637c710fc8eaec57a476cfad52b6ab28",
+  "sha256_normalizado": "b741c1a513e9a15b7ca7b4f81d0df34bff2265276bb9011acd496c609fbc1fed",
+  "fragmentos": 300
+}

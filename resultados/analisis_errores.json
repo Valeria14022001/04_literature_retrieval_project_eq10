@@ -1,0 +1,122 @@
+[
+  {
+    "query_id": "Q05",
+    "grupo": "mejor relativo",
+    "consulta": "Descripción de una habitación y sus muebles.",
+    "titulo": "Coincidencia de escena y vocabulario",
+    "analisis": "El primer resultado, F0187, describe la acumulación de objetos en el cuarto de Gregorio y está juzgado con 2. F0184, segundo, tiene relevancia parcial. La combinación habitación/muebles coincide con el motivo solicitado. F0225, tercero, menciona un armario: la presencia de un mueble puede elevar un pasaje que no describe extensamente el espacio. El acierto es relativo al qrels y no prueba que los diez resultados sean buenos.",
+    "P@10": 0.4,
+    "R@10": 0.3076923076923077,
+    "F1@10": 0.34782608695652173,
+    "RR": 1.0,
+    "nDCG@10": 0.45377801052271405
+  },
+  {
+    "query_id": "Q01",
+    "grupo": "mejor relativo",
+    "consulta": "Personajes que escriben, reciben o leen una carta.",
+    "titulo": "Cartas como estructura narrativa",
+    "analisis": "F0112, primero, presenta el incidente de una carta y tiene relevancia 2. F0078 contiene correspondencia explícita. Sin embargo, F0007 aparece segundo y narra que la señora Ramsay escribía cartas: es un candidato relevante no incluido en el qrels congelado. Por tanto, parte de la penalización puede proceder de cobertura incompleta de los juicios, no de un fallo de recuperación. Se debe revisar en una futura versión, sin cambiar retrospectivamente este experimento.",
+    "P@10": 0.4,
+    "R@10": 0.26666666666666666,
+    "F1@10": 0.32,
+    "RR": 1.0,
+    "nDCG@10": 0.4046336751928078
+  },
+  {
+    "query_id": "Q09",
+    "grupo": "mejor relativo",
+    "consulta": "La música forma parte de una experiencia emocional o social.",
+    "titulo": "Vocabulario musical específico",
+    "analisis": "F0120 ocupa el primer lugar y tiene relevancia 2: Mozart, Hándel, violín y compañía enlazan música y emoción. El VSM aprovecha esos términos, pero no sabe por sí mismo qué función emocional cumplen. Otros resultados de Proust o Hesse no juzgados pueden desarrollar música y vida social. Esta consulta muestra coincidencia léxica útil, además de la necesidad de ampliar la evaluación de los recuperados.",
+    "P@10": 0.2,
+    "R@10": 0.16666666666666666,
+    "F1@10": 0.1818181818181818,
+    "RR": 1.0,
+    "nDCG@10": 0.35384496218802086
+  },
+  {
+    "query_id": "Q06",
+    "grupo": "mejor relativo",
+    "consulta": "Una experiencia de enseñanza, aprendizaje o disciplina escolar.",
+    "titulo": "Una experiencia de formación reconocible",
+    "analisis": "F0164 aparece primero y está juzgado con 2: clases, profesores y aprendizaje científico sostienen la relevancia. La coincidencia no depende solo del título de Frankenstein. En otras posiciones pueden aparecer menciones educativas o vocabulario genérico que no constituyan una experiencia escolar completa. El resultado permite ilustrar la diferencia entre coincidencia temática directa y alusiones parciales, sin atribuir comprensión semántica al vectorizador.",
+    "P@10": 0.2,
+    "R@10": 0.16666666666666666,
+    "F1@10": 0.1818181818181818,
+    "RR": 1.0,
+    "nDCG@10": 0.34996214474846005
+  },
+  {
+    "query_id": "Q04",
+    "grupo": "mejor relativo",
+    "consulta": "Personajes que comen o beben durante una comida.",
+    "titulo": "Polisemia y escenas de comida",
+    "analisis": "F0221, segundo, está juzgado con 2 por la selección y consumo de alimentos para evitar un somnífero. El primer resultado, F0021, dice que el personaje se ha bebido prendas: es una metáfora del gasto en alcohol. Esto puede activar comer/beber sin representar una comida. La consulta combina aciertos con ambigüedad léxica; una buena posición relativa no significa que la primera respuesta sea la mejor.",
+    "P@10": 0.3,
+    "R@10": 0.21428571428571427,
+    "F1@10": 0.25,
+    "RR": 0.5,
+    "nDCG@10": 0.2580961560814489
+  },
+  {
+    "query_id": "Q03",
+    "grupo": "peor relativo",
+    "consulta": "Descripción de la ropa o de cómo se viste una persona.",
+    "titulo": "Un cero no demuestra irrelevancia",
+    "analisis": "El nDCG@10 es cero respecto de los qrels, pero F0117, primero, describe ropa que cuelga de un cuerpo contraído y prendas apretadas. Es un candidato claramente pertinente no juzgado en este benchmark. No puede describirse este caso como fracaso semántico demostrado. La omisión proviene del muestreo de anotación; requiere revisar ese resultado y otros pasajes antes de interpretar el cero como calidad real del sistema.",
+    "P@10": 0.0,
+    "R@10": 0.0,
+    "F1@10": 0.0,
+    "RR": 0.0,
+    "nDCG@10": 0.0
+  },
+  {
+    "query_id": "Q07",
+    "grupo": "peor relativo",
+    "consulta": "Una práctica religiosa influye en la conducta o la experiencia de los personajes.",
+    "titulo": "Formulación abstracta y palabras generales",
+    "analisis": "Los primeros resultados son F0268 y F0200, ausentes del qrels de esta consulta. La formulación práctica religiosa/conducta/experiencia no reproduce necesariamente el vocabulario rezar, misa o comunión de los positivos. F0200 trata de un sacerdote, pero la evidencia leída se centra en relaciones domésticas y económicas. Es plausible una combinación de desajuste léxico y menciones incidentales; hace falta juzgar los diez recuperados para separar ambas causas.",
+    "P@10": 0.0,
+    "R@10": 0.0,
+    "F1@10": 0.0,
+    "RR": 0.0,
+    "nDCG@10": 0.0
+  },
+  {
+    "query_id": "Q10",
+    "grupo": "peor relativo",
+    "consulta": "La apariencia física de alguien provoca una impresión o un juicio sobre esa persona.",
+    "titulo": "La relación entre rasgo físico y juicio no es una bolsa de palabras",
+    "analisis": "F0040 y F0017 encabezan la lista, ambos sin juicio para esta consulta. Los positivos incluyen inferir bondad de un rostro (F0036) o atribuir maldad a Hyde por su apariencia (F0111). Palabras amplias como persona, impresión o juicio pueden aparecer en muchos contextos. El VSM no representa explícitamente la relación causal apariencia→valoración. El cero medido no permite, sin cotejo de los recuperados, atribuir todos los fallos a esa limitación.",
+    "P@10": 0.0,
+    "R@10": 0.0,
+    "F1@10": 0.0,
+    "RR": 0.0,
+    "nDCG@10": 0.0
+  },
+  {
+    "query_id": "Q12",
+    "grupo": "peor relativo",
+    "consulta": "Una persona disimula lo que siente para mantener una apariencia ante los demás.",
+    "titulo": "Fingimiento, sentimiento y cobertura de anotación",
+    "analisis": "F0033 encabeza el ranking con alusiones al disimulo y F0005 aparece segundo con dificultad para expresar sentimientos. Son candidatos no juzgados, no negativos confirmados. Los positivos congelados describen actuaciones claras como fingir beber (F0006) o aparentar serenidad (F0083). La formulación abstracta dificulta la coincidencia exacta, pero la falta de juicios sobre los recuperados también explica parte del cero y debe quedar separada del error del sistema.",
+    "P@10": 0.0,
+    "R@10": 0.0,
+    "F1@10": 0.0,
+    "RR": 0.0,
+    "nDCG@10": 0.0
+  },
+  {
+    "query_id": "Q14",
+    "grupo": "peor relativo",
+    "consulta": "Una diferencia de posición social condiciona la manera de tratar o valorar a alguien.",
+    "titulo": "Caso fuerte de cobertura incompleta",
+    "analisis": "F0272, primero, comienza hablando de la clase social de Swann y de una posición excepcional; no figura en los qrels de Q14. F0022, segundo, discute posición, matrimonio y sacrificio económico. Ambos merecen revisión de relevancia. El nDCG cero significa que ninguno de los diez está en el conjunto positivo congelado, no que todos sean irrelevantes. No es defendible usar este cero como evidencia concluyente de que el modelo no capta diferencias sociales.",
+    "P@10": 0.0,
+    "R@10": 0.0,
+    "F1@10": 0.0,
+    "RR": 0.0,
+    "nDCG@10": 0.0
+  }
+]

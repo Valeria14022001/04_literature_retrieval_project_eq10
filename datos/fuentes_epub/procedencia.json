@@ -1,0 +1,200 @@
+[
+  {
+    "book_id": "al_faro-woolf_virginia",
+    "archivo_epub": "Al_faro-Woolf_Virginia.epub",
+    "sha256_epub": "b1b2f14505b5552239423ae56db303c62f0e8f0bbfa8f57214c597168925f9b0",
+    "archivo_texto": "datos/fuentes_epub/al_faro-woolf_virginia.txt"
+  },
+  {
+    "book_id": "bola_de_sebo-guy_de_maupassant",
+    "archivo_epub": "Bola_de_sebo-Guy_de_Maupassant.epub",
+    "sha256_epub": "a208e9d79aedaa2a97325719cc8f131f891fc8b15170a8f6c9e7b2f4ea537902",
+    "archivo_texto": "datos/fuentes_epub/bola_de_sebo-guy_de_maupassant.txt"
+  },
+  {
+    "book_id": "candido_o_el_optimismo-voltaire",
+    "archivo_epub": "Candido_o_el_optimismo-Voltaire.epub",
+    "sha256_epub": "a72842af0c7c8f1c432c023a544f7bd982a73086365501e37cc535357d8040a7",
+    "archivo_texto": "datos/fuentes_epub/candido_o_el_optimismo-voltaire.txt"
+  },
+  {
+    "book_id": "crimen_y_castigo-dostoyevski_fiodor",
+    "archivo_epub": "Crimen_y_castigo-Dostoyevski_Fiodor.epub",
+    "sha256_epub": "aa2b42ce68c4060cbbd987ac5e29eced4eafaf67986fc03917d20b4d10839795",
+    "archivo_texto": "datos/fuentes_epub/crimen_y_castigo-dostoyevski_fiodor.txt"
+  },
+  {
+    "book_id": "cumbres_borrascosas-bronte_emily",
+    "archivo_epub": "Cumbres_Borrascosas-Bronte_Emily.epub",
+    "sha256_epub": "391e3fbe2a1a81ac4885a3e479fc38467b517b4d58cb6af115316cabeee1591a",
+    "archivo_texto": "datos/fuentes_epub/cumbres_borrascosas-bronte_emily.txt"
+  },
+  {
+    "book_id": "david_copperfield-charles_dickens",
+    "archivo_epub": "David_Copperfield-Charles_Dickens.epub",
+    "sha256_epub": "507488a867476efa4140f7fc30eb2caa3b8db6ad7fb7f153c47e42d0e75b8674",
+    "archivo_texto": "datos/fuentes_epub/david_copperfield-charles_dickens.txt"
+  },
+  {
+    "book_id": "de_la_tierra_a_la_luna-verne_julio",
+    "archivo_epub": "De_la_Tierra_a_la_Luna-Verne_Julio.epub",
+    "sha256_epub": "84f3dadb2a183fb34fb83fc99074ada9394595d03b6232a012f380f76d820a2d",
+    "archivo_texto": "datos/fuentes_epub/de_la_tierra_a_la_luna-verne_julio.txt"
+  },
+  {
+    "book_id": "dracula-stoker_bram",
+    "archivo_epub": "Dracula-Stoker_Bram.epub",
+    "sha256_epub": "eb81899d5366dcf6119a0edb7e972d74e4c2590511520c99446972cf7ef1d316",
+    "archivo_texto": "datos/fuentes_epub/dracula-stoker_bram.txt"
+  },
+  {
+    "book_id": "el_caballero_carmelo-abraham_valdelomar",
+    "archivo_epub": "El_caballero_Carmelo-Abraham_Valdelomar.epub",
+    "sha256_epub": "7ef6c86f88c09c3fbb93a8ce66ad50e15a298dbc4255690b307707defb1c6d16",
+    "archivo_texto": "datos/fuentes_epub/el_caballero_carmelo-abraham_valdelomar.txt"
+  },
+  {
+    "book_id": "el_conde_de_montecristo-alejandro_dumas_padre",
+    "archivo_epub": "El_conde_de_Montecristo-Alejandro_Dumas_Padre.epub",
+    "sha256_epub": "7b83ac4dde2d5dff7d062401d5816d544f81ce9704046977e2e393e7eef12730",
+    "archivo_texto": "datos/fuentes_epub/el_conde_de_montecristo-alejandro_dumas_padre.txt"
+  },
+  {
+    "book_id": "el_extrano_caso_del_dr_jekyll_y_mr_hyde-robert_louis_stevenson",
+    "archivo_epub": "El_extrano_caso_del_Dr._Jekyll_y_Mr._Hyde-Robert_Louis_Stevenson.epub",
+    "sha256_epub": "4930ff2c8cb8a313b318613309f6bd55b992a76ac10f520bad033fc5f4e4c80c",
+    "archivo_texto": "datos/fuentes_epub/el_extrano_caso_del_dr_jekyll_y_mr_hyde-robert_louis_stevenson.txt"
+  },
+  {
+    "book_id": "el_horla-guy_de_maupassant",
+    "archivo_epub": "El_Horla-Guy_de_Maupassant.epub",
+    "sha256_epub": "9442b0abf067b5e6fe322d4bfba9b62c6d9a45e4afd510888f25743b8f2fb938",
+    "archivo_texto": "datos/fuentes_epub/el_horla-guy_de_maupassant.txt"
+  },
+  {
+    "book_id": "el_lobo_estepario-hesse_herman",
+    "archivo_epub": "El_lobo_estepario-Hesse_Herman.epub",
+    "sha256_epub": "df9e496ddc041f926f5057acce16800c0f7dd5e4fe6f2728e6b34b30700b4cd6",
+    "archivo_texto": "datos/fuentes_epub/el_lobo_estepario-hesse_herman.txt"
+  },
+  {
+    "book_id": "el_principito-antoine_de_saint-exupery",
+    "archivo_epub": "El_principito-Antoine_de_Saint-Exupery.epub",
+    "sha256_epub": "e262dcb30f5d9c927947bf873b674b4aea83896e8429a1625e15644657349dec",
+    "archivo_texto": "datos/fuentes_epub/el_principito-antoine_de_saint-exupery.txt"
+  },
+  {
+    "book_id": "el_proceso-kafka_franz",
+    "archivo_epub": "El_proceso-Kafka_Franz.epub",
+    "sha256_epub": "48ff025c41ba3384ad5e3fc554d7140d18c3750e8535d8bd5e7a22b005ad2b92",
+    "archivo_texto": "datos/fuentes_epub/el_proceso-kafka_franz.txt"
+  },
+  {
+    "book_id": "el_sabueso_de_los_baskerville-conan_doyle_arthur",
+    "archivo_epub": "El_sabueso_de_los_Baskerville-Conan_Doyle_Arthur.epub",
+    "sha256_epub": "014e10c15883c27c05bb6737da56f73543979459d9b03d7607838c0647fadb9b",
+    "archivo_texto": "datos/fuentes_epub/el_sabueso_de_los_baskerville-conan_doyle_arthur.txt"
+  },
+  {
+    "book_id": "el_sombrero_de_tres_picos-de_alarcon_pedro_antonio",
+    "archivo_epub": "El_sombrero_de_tres_picos-de_Alarcon_Pedro_Antonio.epub",
+    "sha256_epub": "3be44f60a239fc39dd178c18f871af959932a0e7f481d7c8fa8b40806dcf07d9",
+    "archivo_texto": "datos/fuentes_epub/el_sombrero_de_tres_picos-de_alarcon_pedro_antonio.txt"
+  },
+  {
+    "book_id": "el_tulipan_negro-alejandro_dumas_padre",
+    "archivo_epub": "El_tulipan_negro-Alejandro_Dumas_Padre.epub",
+    "sha256_epub": "6582a5383dae8240288f19d37ce88110331067ed28558de99a47f64ff092aaa4",
+    "archivo_texto": "datos/fuentes_epub/el_tulipan_negro-alejandro_dumas_padre.txt"
+  },
+  {
+    "book_id": "frankenstein-mary_shelley",
+    "archivo_epub": "Frankenstein-Mary_Shelley.epub",
+    "sha256_epub": "092840fce05b128889979b5366091d621c1d655a3b5d44ec4655f17b58b686f6",
+    "archivo_texto": "datos/fuentes_epub/frankenstein-mary_shelley.txt"
+  },
+  {
+    "book_id": "las_aventuras_de_un_cadaver-robert_louis_stevenson",
+    "archivo_epub": "Las_aventuras_de_un_cadaver-Robert_Louis_Stevenson.epub",
+    "sha256_epub": "f93a7d52670e87c43718bbda4fc0d0ec7d8465c77af77ae16709d00c639bd34a",
+    "archivo_texto": "datos/fuentes_epub/las_aventuras_de_un_cadaver-robert_louis_stevenson.txt"
+  },
+  {
+    "book_id": "la_corza_blanca-gustavo_adolfo_becquer",
+    "archivo_epub": "La_corza_blanca-Gustavo_Adolfo_Becquer.epub",
+    "sha256_epub": "d0cd6a08f4e5dd8826de7856fd138b5883fa1d77e216abf581fe3026ae28841e",
+    "archivo_texto": "datos/fuentes_epub/la_corza_blanca-gustavo_adolfo_becquer.txt"
+  },
+  {
+    "book_id": "la_isla_del_tesoro-robert_louis_stevenson",
+    "archivo_epub": "La_isla_del_tesoro-Robert_Louis_Stevenson.epub",
+    "sha256_epub": "fcfceff623c402fb25ac0a60a3b7087ca26a973c37c547a5cce6fb4b775c6c25",
+    "archivo_texto": "datos/fuentes_epub/la_isla_del_tesoro-robert_louis_stevenson.txt"
+  },
+  {
+    "book_id": "la_metamorfosis-kafka_franz",
+    "archivo_epub": "La_Metamorfosis-Kafka_Franz.epub",
+    "sha256_epub": "8c8d240c39cd1ad8d171870dc1c00eeb97f43986ecd1ed50e3bb87b6fc2b5901",
+    "archivo_texto": "datos/fuentes_epub/la_metamorfosis-kafka_franz.txt"
+  },
+  {
+    "book_id": "los_pazos_de_ulloa-pardo_bazan_emilia",
+    "archivo_epub": "Los_pazos_de_Ulloa-Pardo_Bazan_Emilia.epub",
+    "sha256_epub": "e56fac4992da5ddcfa4d625d54e44ad303fdc9b2cb4c4a6ef2371bb6fd7019ee",
+    "archivo_texto": "datos/fuentes_epub/los_pazos_de_ulloa-pardo_bazan_emilia.txt"
+  },
+  {
+    "book_id": "los_tres_mosqueteros-alejandro_dumas_padre",
+    "archivo_epub": "Los_tres_mosqueteros-Alejandro_Dumas_Padre.epub",
+    "sha256_epub": "2c7a88144e89f10dc0b43082bfacc38ba8be20d7026dbc1744545d6eb1ffde76",
+    "archivo_texto": "datos/fuentes_epub/los_tres_mosqueteros-alejandro_dumas_padre.txt"
+  },
+  {
+    "book_id": "madame_bovary-gustave_flaubert",
+    "archivo_epub": "Madame_Bovary-Gustave_Flaubert.epub",
+    "sha256_epub": "eb137853b6ad136d519b095abe79ad43f96428b43a692d3b896be05f2c35fa0c",
+    "archivo_texto": "datos/fuentes_epub/madame_bovary-gustave_flaubert.txt"
+  },
+  {
+    "book_id": "misericordia-benito_perez_galdos",
+    "archivo_epub": "Misericordia-Benito_Perez_Galdos.epub",
+    "sha256_epub": "713c4059c8790cfbf77b47729e1eb6bcc21511622a8067b61416702813cf5628",
+    "archivo_texto": "datos/fuentes_epub/misericordia-benito_perez_galdos.txt"
+  },
+  {
+    "book_id": "mujercitas-alcott_louisa_may",
+    "archivo_epub": "Mujercitas-Alcott_Louisa_May.epub",
+    "sha256_epub": "d8d181fc70352f8ba4f76b86b762b4bcca838a6f41d770c8b2ca8c088b63a908",
+    "archivo_texto": "datos/fuentes_epub/mujercitas-alcott_louisa_may.txt"
+  },
+  {
+    "book_id": "pepita_jimenez-juan_valera",
+    "archivo_epub": "Pepita_Jimenez-Juan_Valera.epub",
+    "sha256_epub": "c19af30d40197e1a98b8c5a2e4959032e31f9ebd902c3b5ac7d8960a0920891f",
+    "archivo_texto": "datos/fuentes_epub/pepita_jimenez-juan_valera.txt"
+  },
+  {
+    "book_id": "por_el_camino_de_swann-marcel_proust",
+    "archivo_epub": "Por_el_camino_de_Swann-Marcel_Proust.epub",
+    "sha256_epub": "11775c9314354ba6e3f2de2c688de04dfd1b569b7d63f20a07e33d6dd2ad7f48",
+    "archivo_texto": "datos/fuentes_epub/por_el_camino_de_swann-marcel_proust.txt"
+  },
+  {
+    "book_id": "retrato_del_artista_adolescente-james_joyce",
+    "archivo_epub": "Retrato_del_artista_adolescente-James_Joyce.epub",
+    "sha256_epub": "dcbe9bf24a2f68bca7903590f3edc37f723f57ab9622a44af23fef53e8760003",
+    "archivo_texto": "datos/fuentes_epub/retrato_del_artista_adolescente-james_joyce.txt"
+  },
+  {
+    "book_id": "sonata_de_estio-ramon_maria_del_valle-inclan",
+    "archivo_epub": "Sonata_de_estio-Ramon_Maria_del_Valle-Inclan.epub",
+    "sha256_epub": "ab8ae57a0905d149aa95fcc560f9111105cac3e8a50cbe08aa50400a828c2ea6",
+    "archivo_texto": "datos/fuentes_epub/sonata_de_estio-ramon_maria_del_valle-inclan.txt"
+  },
+  {
+    "book_id": "sonata_de_primavera-ramon_maria_del_valle-inclan",
+    "archivo_epub": "Sonata_de_primavera-Ramon_Maria_del_Valle-Inclan.epub",
+    "sha256_epub": "4ce28457f219c9cf5c76d201f25cc78af4ecaccebefb593850089cc7444961cb",
+    "archivo_texto": "datos/fuentes_epub/sonata_de_primavera-ramon_maria_del_valle-inclan.txt"
+  }
+]

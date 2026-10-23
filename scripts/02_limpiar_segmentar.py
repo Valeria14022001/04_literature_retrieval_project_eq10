@@ -8,8 +8,8 @@ import unicodedata
 
 
 CARPETAS_ENTRADA = [
-    Path("textos_extraidos/epub"),
-    Path("textos_extraidos/pdf"),
+    Path("datos/fuentes_epub"),
+    Path("datos/fuentes_epub/pdf"),
 ]
 
 CARPETA_SALIDA = Path("datos/candidatos")
@@ -179,8 +179,8 @@ def es_linea_basura(linea):
     if not limpia:
         return False
 
-    if re.fullmatch(r"\d{1,5}", limpia):
-        return True
+    # Un número aislado puede ser narrativo, una fecha o una numeración.
+    # La paginación requiere evidencia estructural, no se elimina aquí.
 
     basura_exacta = {
         "cover",
@@ -313,10 +313,11 @@ def es_encabezado(linea):
         r"^PARTE\s+[IVXLCDM]+$",
         r"^CAP[ÍI]TULO\s+([0-9]+|[IVXLCDM]+|PRIMERO|SEGUNDO|TERCERO|CUARTO|QUINTO|SEXTO|S[ÉE]PTIMO|OCTAVO|NOVENO|D[ÉE]CIMO|UND[ÉE]CIMO|DUOD[ÉE]CIMO).*$",
         r"^Cap[íi]tulo\s+[0-9]+$",
-        r"^[IVXLCDM]{1,8}$",
         r"^\d{1,3}\.\s+[A-ZÁÉÍÓÚÜÑ].{3,90}$",
     ]
 
+    if linea.isupper() and re.fullmatch(r"[IVXLCDM]{1,8}", linea):
+        return True
     return any(re.match(patron, linea, flags=re.IGNORECASE) for patron in patrones)
 
 
@@ -335,7 +336,7 @@ def buscar_inicio_narrativo(texto):
         for match in re.finditer(patron, texto):
             candidatos.append(match.start())
 
-    for match in re.finditer(r"(?im)^\s*[IVXLCDM]{1,8}\s*$", texto):
+    for match in re.finditer(r"(?m)^\s*[IVXLCDM]{1,8}\s*$", texto):
         siguiente = texto[match.end(): match.end() + 180]
         lineas = [l.strip() for l in siguiente.splitlines() if l.strip()]
 
@@ -394,14 +395,19 @@ def reconstruir_parrafos(texto):
     parrafos = []
     actual = []
 
-    for linea in lineas:
+    for indice, linea in enumerate(lineas):
         if not linea:
             if actual:
                 parrafos.append(" ".join(actual).strip())
                 actual = []
             continue
 
-        if es_encabezado(linea):
+        numeral_entre_texto = (
+            es_numeral_romano_suelto(linea)
+            and indice > 0 and indice + 1 < len(lineas)
+            and bool(lineas[indice - 1]) and bool(lineas[indice + 1])
+        )
+        if es_encabezado(linea) and not numeral_entre_texto:
             if actual:
                 parrafos.append(" ".join(actual).strip())
                 actual = []
@@ -497,32 +503,10 @@ def quitar_subtitulo_pegado(parrafo):
 
 
 def quitar_cabecera_fragmento(fragmento):
-    parrafos = [p.strip() for p in fragmento.split("\n\n") if p.strip()]
-
-    if not parrafos:
-        return ""
-
-    while parrafos and es_titulo_suelto_de_fragmento(parrafos[0]):
-        parrafos.pop(0)
-
-    if parrafos:
-        parrafos[0] = quitar_subtitulo_pegado(parrafos[0])
-
-        if not parrafos[0].strip():
-            parrafos.pop(0)
-
-    parrafos_limpios = []
-
-    for parrafo in parrafos:
-        if es_titulo_suelto_de_fragmento(parrafo):
-            continue
-
-        parrafo = quitar_subtitulo_pegado(parrafo)
-
-        if parrafo.strip():
-            parrafos_limpios.append(parrafo.strip())
-
-    return "\n\n".join(parrafos_limpios).strip()
+    # Los títulos internos, versos y numerales forman parte de la estructura.
+    # Los encabezados iniciales de capítulo ya se separan en construir_capitulos.
+    # No borrar aquí líneas por mayúsculas ni subtítulos inferidos por su forma.
+    return fragmento.strip()
 
 
 # ----------------------------------------------------------------------------
@@ -685,7 +669,10 @@ def unidades_de_texto(texto):
             unidades.append((parrafo, n, "\n\n"))
             continue
 
-        oraciones = [o for o in re.split(r"(?<=[.!?])\s+", parrafo) if o.strip()]
+        # Respetar iniciales y abreviaturas: el punto de K. no termina
+        # necesariamente la oración. Solo es un corte auxiliar de párrafo largo.
+        from fuentes_estructuradas import safe_sentence_spans
+        oraciones = [parrafo[a:b] for a,b in safe_sentence_spans(parrafo)]
 
         for i, oracion in enumerate(oraciones):
             unidades.append((oracion, contar_palabras(oracion), "\n\n" if i == 0 else " "))
@@ -891,8 +878,11 @@ def estado_rango(n_palabras, min_p, max_p):
 
 
 def compactar_para_tsv(texto):
-    texto = re.sub(r"[\x00-\x1f\x7f]+", " ", texto)
-    return re.sub(r"\s+", " ", texto).strip()
+    # csv.DictWriter entrecomilla correctamente las celdas multilínea.
+    # Conservar los párrafos es necesario para la revisión literaria.
+    texto = texto.replace("\r\n", "\n").replace("\r", "\n")
+    texto = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]", "", texto)
+    return re.sub(r"[ \t]+", " ", texto).strip()
 
 
 def segmentar_libro(texto_limpio, min_p, max_p, objetivo):
@@ -971,7 +961,7 @@ def main():
     rutas_txt = leer_txts_entrada()
 
     if not rutas_txt:
-        print("No encontre archivos .txt en textos_extraidos/epub ni textos_extraidos/pdf.")
+        print("No encontre archivos .txt en datos/fuentes_epub ni datos/fuentes_epub/pdf.")
         return
 
     CARPETA_SALIDA.mkdir(parents=True, exist_ok=True)

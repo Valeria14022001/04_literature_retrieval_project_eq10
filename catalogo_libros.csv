@@ -1,34 +1,34 @@
-archivo_original,formato,titulo,autor,fuente,revisar
-Al_faro-Woolf_Virginia.epub,epub,Al faro,Virginia Woolf,Elejandria,no
-Bola_de_sebo-Guy_de_Maupassant.epub,epub,Bola de sebo,Guy de Maupassant,Elejandria,no
-Candido_o_el_optimismo-Voltaire.epub,epub,Candido o el optimismo,Voltaire,Elejandria,no
-Crimen_y_castigo-Dostoyevski_Fiodor.epub,epub,El crimen y el castigo,Fiódor Dostoyevski,Elejandria,no
-Cumbres_Borrascosas-Bronte_Emily.epub,epub,Cumbres Borrascosas,Emily Brontë,Elejandria,no
-David_Copperfield-Charles_Dickens.epub,epub,David Copperfield,Charles Dickens,Elejandria,no
-De_la_Tierra_a_la_Luna-Verne_Julio.epub,epub,De la Tierra a la Luna,Julio Verne,Elejandria,no
-Dracula-Stoker_Bram.epub,epub,Drácula,Bram Stoker,Elejandria,no
-El_Horla-Guy_de_Maupassant.epub,epub,El Horla,Guy de Maupassant,Elejandria,no
-El_caballero_Carmelo-Abraham_Valdelomar.epub,epub,El caballero Carmelo,Abraham Valdelomar,Elejandria,no
-El_conde_de_Montecristo-Alejandro_Dumas_Padre.epub,epub,El conde de Montecristo,Alejandro Dumas,Elejandria,no
-El_extrano_caso_del_Dr._Jekyll_y_Mr._Hyde-Robert_Louis_Stevenson.epub,epub,El extraño caso del Dr. Jekyll y Mr. Hyde,Robert Louis Stevenson,Elejandria,no
-El_lobo_estepario-Hesse_Herman.epub,epub,Hermann Hesse - El lobo estepario,Hermann Hesse,Elejandria,no
-El_principito-Antoine_de_Saint-Exupery.epub,epub,El principito,Antoine de Saint-Exupéry,Elejandria,no
-El_proceso-Kafka_Franz.epub,epub,El proceso,Franz Kafka,Elejandria,no
-El_sabueso_de_los_Baskerville-Conan_Doyle_Arthur.epub,epub,El sabueso de los Baskerville,Arthur Conan Doyle,Elejandria,no
-El_sombrero_de_tres_picos-de_Alarcon_Pedro_Antonio.epub,epub,El Sombrero de Tres Picos,Pedro Antonio de Alarcón,Elejandria,no
-El_tulipan_negro-Alejandro_Dumas_Padre.epub,epub,El tulipán negro,Alejandro Dumas,Elejandria,no
-Frankenstein-Mary_Shelley.epub,epub,Frankenstein,Mary Shelley,Elejandria,no
-La_Metamorfosis-Kafka_Franz.epub,epub,La metamorfosis,Franz Kafka,Elejandria,no
-La_corza_blanca-Gustavo_Adolfo_Becquer.epub,epub,La corza blanca,Gustavo Adolfo Bécquer,Elejandria,no
-La_isla_del_tesoro-Robert_Louis_Stevenson.epub,epub,La isla del tesoro,Robert Louis Stevenson,Elejandria,no
-Las_aventuras_de_un_cadaver-Robert_Louis_Stevenson.epub,epub,Las aventuras de un cadaver,Robert Louis Stevenson,Elejandria,no
-Los_pazos_de_Ulloa-Pardo_Bazan_Emilia.epub,epub,Los pazos de Ulloa,Emilia Pardo Bazán,Elejandria,no
-Los_tres_mosqueteros-Alejandro_Dumas_Padre.epub,epub,Los tres mosqueteros,Alejandro Dumas,Elejandria,no
-Madame_Bovary-Gustave_Flaubert.epub,epub,Madame Bovary,Gustave Flaubert,Elejandria,no
-Misericordia-Benito_Perez_Galdos.epub,epub,Misericordia,Benito Pérez Galdós,Elejandria,no
-Mujercitas-Alcott_Louisa_May.epub,epub,Mujercitas,Louisa May Alcott,Elejandria,no
-Pepita_Jimenez-Juan_Valera.epub,epub,Pepita Jiménez,Juan Valera,Elejandria,no
-Por_el_camino_de_Swann-Marcel_Proust.epub,epub,Por el Camino de Swann,Marcel Proust,Elejandria,no
-Retrato_del_artista_adolescente-James_Joyce.epub,epub,Retrato del artista adolescente,James Joyce,Elejandria,no
-Sonata_de_estio-Ramon_Maria_del_Valle-Inclan.epub,epub,Sonata de estío,Ramón María del Valle Inclán,Elejandria,no
-Sonata_de_primavera-Ramon_Maria_del_Valle-Inclan.epub,epub,Sonata de primavera,Ramon María del Valle Inclán,Elejandria,no
+archivo_original,formato,titulo,autor,fuente,revisar,tipo,genero,epoca,idioma_original,pais_origen,url
+Al_faro-Woolf_Virginia.epub,epub,Al faro,Virginia Woolf,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+Bola_de_sebo-Guy_de_Maupassant.epub,epub,Bola de sebo,Guy de Maupassant,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+Candido_o_el_optimismo-Voltaire.epub,epub,Candido o el optimismo,Voltaire,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+Crimen_y_castigo-Dostoyevski_Fiodor.epub,epub,El crimen y el castigo,Fiódor Dostoyevski,Elejandria,no,novela,Detective and mystery stories,sxix/sxx,es,n/a,n/a
+Cumbres_Borrascosas-Bronte_Emily.epub,epub,Cumbres Borrascosas,Emily Brontë,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+David_Copperfield-Charles_Dickens.epub,epub,David Copperfield,Charles Dickens,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+De_la_Tierra_a_la_Luna-Verne_Julio.epub,epub,De la Tierra a la Luna,Julio Verne,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+Dracula-Stoker_Bram.epub,epub,Drácula,Bram Stoker,Elejandria,no,dcterms:RFC4646,Ficción,sxix/sxx,es,n/a,n/a
+El_Horla-Guy_de_Maupassant.epub,epub,El Horla,Guy de Maupassant,Elejandria,no,dcterms:RFC4646,narrativo,sxix/sxx,es,n/a,http://www.ciudadseva.com
+El_caballero_Carmelo-Abraham_Valdelomar.epub,epub,El caballero Carmelo,Abraham Valdelomar,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+El_conde_de_Montecristo-Alejandro_Dumas_Padre.epub,epub,El conde de Montecristo,Alejandro Dumas,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+El_extrano_caso_del_Dr._Jekyll_y_Mr._Hyde-Robert_Louis_Stevenson.epub,epub,El extraño caso del Dr. Jekyll y Mr. Hyde,Robert Louis Stevenson,Elejandria,no,dcterms:RFC4646,narrativo,sxix/sxx,es,n/a,http://es.wikisource.org/wiki/Robert_Louis_Stevenson
+El_lobo_estepario-Hesse_Herman.epub,epub,Hermann Hesse - El lobo estepario,Hermann Hesse,Elejandria,no,novela,Novela,sxix/sxx,es,n/a,n/a
+El_principito-Antoine_de_Saint-Exupery.epub,epub,El principito,Antoine de Saint-Exupéry,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+El_proceso-Kafka_Franz.epub,epub,El proceso,Franz Kafka,Elejandria,no,toc,narrativo,sxix/sxx,es,n/a,n/a
+El_sabueso_de_los_Baskerville-Conan_Doyle_Arthur.epub,epub,El sabueso de los Baskerville,Arthur Conan Doyle,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+El_sombrero_de_tres_picos-de_Alarcon_Pedro_Antonio.epub,epub,El Sombrero de Tres Picos,Pedro Antonio de Alarcón,Elejandria,no,novela,Novela,sxix/sxx,es,n/a,n/a
+El_tulipan_negro-Alejandro_Dumas_Padre.epub,epub,El tulipán negro,Alejandro Dumas,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+Frankenstein-Mary_Shelley.epub,epub,Frankenstein,Mary Shelley,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+La_Metamorfosis-Kafka_Franz.epub,epub,La metamorfosis,Franz Kafka,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+La_corza_blanca-Gustavo_Adolfo_Becquer.epub,epub,La corza blanca,Gustavo Adolfo Bécquer,Elejandria,no,novela,Cuento,sxix/sxx,es,n/a,n/a
+La_isla_del_tesoro-Robert_Louis_Stevenson.epub,epub,La isla del tesoro,Robert Louis Stevenson,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+Las_aventuras_de_un_cadaver-Robert_Louis_Stevenson.epub,epub,Las aventuras de un cadaver,Robert Louis Stevenson,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+Los_pazos_de_Ulloa-Pardo_Bazan_Emilia.epub,epub,Los pazos de Ulloa,Emilia Pardo Bazán,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+Los_tres_mosqueteros-Alejandro_Dumas_Padre.epub,epub,Los tres mosqueteros,Alejandro Dumas,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+Madame_Bovary-Gustave_Flaubert.epub,epub,Madame Bovary,Gustave Flaubert,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+Misericordia-Benito_Perez_Galdos.epub,epub,Misericordia,Benito Pérez Galdós,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+Mujercitas-Alcott_Louisa_May.epub,epub,Mujercitas,Louisa May Alcott,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+Pepita_Jimenez-Juan_Valera.epub,epub,Pepita Jiménez,Juan Valera,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+Por_el_camino_de_Swann-Marcel_Proust.epub,epub,Por el Camino de Swann,Marcel Proust,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+Retrato_del_artista_adolescente-James_Joyce.epub,epub,Retrato del artista adolescente,James Joyce,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+Sonata_de_estio-Ramon_Maria_del_Valle-Inclan.epub,epub,Sonata de estío,Ramón María del Valle Inclán,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a
+Sonata_de_primavera-Ramon_Maria_del_Valle-Inclan.epub,epub,Sonata de primavera,Ramon María del Valle Inclán,Elejandria,no,novela,narrativo,sxix/sxx,es,n/a,n/a

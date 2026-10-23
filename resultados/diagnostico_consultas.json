@@ -1,0 +1,2180 @@
+[
+  {
+    "configuracion": "titulo_1_frecuencia",
+    "query_id": "Q01",
+    "consulta_normalizada": "personaje escribir recibir leen carta",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_1_frecuencia",
+    "query_id": "Q02",
+    "consulta_normalizada": "conversación transacción dinero precio pago",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_1_frecuencia",
+    "query_id": "Q03",
+    "consulta_normalizada": "descripción ropa viste persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_1_frecuencia",
+    "query_id": "Q04",
+    "consulta_normalizada": "personaje comar beber comida",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_1_frecuencia",
+    "query_id": "Q05",
+    "consulta_normalizada": "descripción habitación mueble",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_1_frecuencia",
+    "query_id": "Q06",
+    "consulta_normalizada": "experiencia enseñanza aprendizaje disciplina escolar",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_1_frecuencia",
+    "query_id": "Q07",
+    "consulta_normalizada": "práctica religioso influir conducta experiencia personaje",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_1_frecuencia",
+    "query_id": "Q08",
+    "consulta_normalizada": "persona necesitar cuidado estado salud",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_1_frecuencia",
+    "query_id": "Q09",
+    "consulta_normalizada": "música formar parte experiencia emocional social",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_1_frecuencia",
+    "query_id": "Q10",
+    "consulta_normalizada": "apariencia físico provocar impresión juicio persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_1_frecuencia",
+    "query_id": "Q11",
+    "consulta_normalizada": "subsistencia persona depender ayuda material",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_1_frecuencia",
+    "query_id": "Q12",
+    "consulta_normalizada": "persona disimulo sentir mantener apariencia",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_1_frecuencia",
+    "query_id": "Q13",
+    "consulta_normalizada": "recuerdo experiencia anterior modifico manera vivir comprender presente",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 2,
+    "no_juzgados_top10": 8
+  },
+  {
+    "configuracion": "titulo_1_frecuencia",
+    "query_id": "Q14",
+    "consulta_normalizada": "diferencia posición social condicionar manera tratar valorar",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_1_frecuencia",
+    "query_id": "Q15",
+    "consulta_normalizada": "preocupación opinión ajeno influir hacer sentir persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_1_binaria",
+    "query_id": "Q01",
+    "consulta_normalizada": "personaje escribir recibir leen carta",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_1_binaria",
+    "query_id": "Q02",
+    "consulta_normalizada": "conversación transacción dinero precio pago",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_1_binaria",
+    "query_id": "Q03",
+    "consulta_normalizada": "descripción ropa viste persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_1_binaria",
+    "query_id": "Q04",
+    "consulta_normalizada": "personaje comar beber comida",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_1_binaria",
+    "query_id": "Q05",
+    "consulta_normalizada": "descripción habitación mueble",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_1_binaria",
+    "query_id": "Q06",
+    "consulta_normalizada": "experiencia enseñanza aprendizaje disciplina escolar",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_1_binaria",
+    "query_id": "Q07",
+    "consulta_normalizada": "práctica religioso influir conducta experiencia personaje",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_1_binaria",
+    "query_id": "Q08",
+    "consulta_normalizada": "persona necesitar cuidado estado salud",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_1_binaria",
+    "query_id": "Q09",
+    "consulta_normalizada": "música formar parte experiencia emocional social",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_1_binaria",
+    "query_id": "Q10",
+    "consulta_normalizada": "apariencia físico provocar impresión juicio persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_1_binaria",
+    "query_id": "Q11",
+    "consulta_normalizada": "subsistencia persona depender ayuda material",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_1_binaria",
+    "query_id": "Q12",
+    "consulta_normalizada": "persona disimulo sentir mantener apariencia",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_1_binaria",
+    "query_id": "Q13",
+    "consulta_normalizada": "recuerdo experiencia anterior modifico manera vivir comprender presente",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 2,
+    "no_juzgados_top10": 8
+  },
+  {
+    "configuracion": "titulo_1_binaria",
+    "query_id": "Q14",
+    "consulta_normalizada": "diferencia posición social condicionar manera tratar valorar",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_1_binaria",
+    "query_id": "Q15",
+    "consulta_normalizada": "preocupación opinión ajeno influir hacer sentir persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_1_tfidf",
+    "query_id": "Q01",
+    "consulta_normalizada": "personaje escribir recibir leen carta",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_1_tfidf",
+    "query_id": "Q02",
+    "consulta_normalizada": "conversación transacción dinero precio pago",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_1_tfidf",
+    "query_id": "Q03",
+    "consulta_normalizada": "descripción ropa viste persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_1_tfidf",
+    "query_id": "Q04",
+    "consulta_normalizada": "personaje comar beber comida",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_1_tfidf",
+    "query_id": "Q05",
+    "consulta_normalizada": "descripción habitación mueble",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_1_tfidf",
+    "query_id": "Q06",
+    "consulta_normalizada": "experiencia enseñanza aprendizaje disciplina escolar",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_1_tfidf",
+    "query_id": "Q07",
+    "consulta_normalizada": "práctica religioso influir conducta experiencia personaje",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_1_tfidf",
+    "query_id": "Q08",
+    "consulta_normalizada": "persona necesitar cuidado estado salud",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_1_tfidf",
+    "query_id": "Q09",
+    "consulta_normalizada": "música formar parte experiencia emocional social",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_1_tfidf",
+    "query_id": "Q10",
+    "consulta_normalizada": "apariencia físico provocar impresión juicio persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_1_tfidf",
+    "query_id": "Q11",
+    "consulta_normalizada": "subsistencia persona depender ayuda material",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_1_tfidf",
+    "query_id": "Q12",
+    "consulta_normalizada": "persona disimulo sentir mantener apariencia",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_1_tfidf",
+    "query_id": "Q13",
+    "consulta_normalizada": "recuerdo experiencia anterior modifico manera vivir comprender presente",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 2,
+    "no_juzgados_top10": 8
+  },
+  {
+    "configuracion": "titulo_1_tfidf",
+    "query_id": "Q14",
+    "consulta_normalizada": "diferencia posición social condicionar manera tratar valorar",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_1_tfidf",
+    "query_id": "Q15",
+    "consulta_normalizada": "preocupación opinión ajeno influir hacer sentir persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_2_frecuencia",
+    "query_id": "Q01",
+    "consulta_normalizada": "personaje escribir recibir leen carta",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_2_frecuencia",
+    "query_id": "Q02",
+    "consulta_normalizada": "conversación transacción dinero precio pago",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_2_frecuencia",
+    "query_id": "Q03",
+    "consulta_normalizada": "descripción ropa viste persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_2_frecuencia",
+    "query_id": "Q04",
+    "consulta_normalizada": "personaje comar beber comida",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_2_frecuencia",
+    "query_id": "Q05",
+    "consulta_normalizada": "descripción habitación mueble",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_2_frecuencia",
+    "query_id": "Q06",
+    "consulta_normalizada": "experiencia enseñanza aprendizaje disciplina escolar",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_2_frecuencia",
+    "query_id": "Q07",
+    "consulta_normalizada": "práctica religioso influir conducta experiencia personaje",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_2_frecuencia",
+    "query_id": "Q08",
+    "consulta_normalizada": "persona necesitar cuidado estado salud",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_2_frecuencia",
+    "query_id": "Q09",
+    "consulta_normalizada": "música formar parte experiencia emocional social",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_2_frecuencia",
+    "query_id": "Q10",
+    "consulta_normalizada": "apariencia físico provocar impresión juicio persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_2_frecuencia",
+    "query_id": "Q11",
+    "consulta_normalizada": "subsistencia persona depender ayuda material",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_2_frecuencia",
+    "query_id": "Q12",
+    "consulta_normalizada": "persona disimulo sentir mantener apariencia",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_2_frecuencia",
+    "query_id": "Q13",
+    "consulta_normalizada": "recuerdo experiencia anterior modifico manera vivir comprender presente",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 2,
+    "no_juzgados_top10": 8
+  },
+  {
+    "configuracion": "titulo_2_frecuencia",
+    "query_id": "Q14",
+    "consulta_normalizada": "diferencia posición social condicionar manera tratar valorar",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_2_frecuencia",
+    "query_id": "Q15",
+    "consulta_normalizada": "preocupación opinión ajeno influir hacer sentir persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_2_binaria",
+    "query_id": "Q01",
+    "consulta_normalizada": "personaje escribir recibir leen carta",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_2_binaria",
+    "query_id": "Q02",
+    "consulta_normalizada": "conversación transacción dinero precio pago",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_2_binaria",
+    "query_id": "Q03",
+    "consulta_normalizada": "descripción ropa viste persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_2_binaria",
+    "query_id": "Q04",
+    "consulta_normalizada": "personaje comar beber comida",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_2_binaria",
+    "query_id": "Q05",
+    "consulta_normalizada": "descripción habitación mueble",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_2_binaria",
+    "query_id": "Q06",
+    "consulta_normalizada": "experiencia enseñanza aprendizaje disciplina escolar",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_2_binaria",
+    "query_id": "Q07",
+    "consulta_normalizada": "práctica religioso influir conducta experiencia personaje",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_2_binaria",
+    "query_id": "Q08",
+    "consulta_normalizada": "persona necesitar cuidado estado salud",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_2_binaria",
+    "query_id": "Q09",
+    "consulta_normalizada": "música formar parte experiencia emocional social",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_2_binaria",
+    "query_id": "Q10",
+    "consulta_normalizada": "apariencia físico provocar impresión juicio persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_2_binaria",
+    "query_id": "Q11",
+    "consulta_normalizada": "subsistencia persona depender ayuda material",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_2_binaria",
+    "query_id": "Q12",
+    "consulta_normalizada": "persona disimulo sentir mantener apariencia",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_2_binaria",
+    "query_id": "Q13",
+    "consulta_normalizada": "recuerdo experiencia anterior modifico manera vivir comprender presente",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 2,
+    "no_juzgados_top10": 8
+  },
+  {
+    "configuracion": "titulo_2_binaria",
+    "query_id": "Q14",
+    "consulta_normalizada": "diferencia posición social condicionar manera tratar valorar",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_2_binaria",
+    "query_id": "Q15",
+    "consulta_normalizada": "preocupación opinión ajeno influir hacer sentir persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_2_tfidf",
+    "query_id": "Q01",
+    "consulta_normalizada": "personaje escribir recibir leen carta",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_2_tfidf",
+    "query_id": "Q02",
+    "consulta_normalizada": "conversación transacción dinero precio pago",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_2_tfidf",
+    "query_id": "Q03",
+    "consulta_normalizada": "descripción ropa viste persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_2_tfidf",
+    "query_id": "Q04",
+    "consulta_normalizada": "personaje comar beber comida",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_2_tfidf",
+    "query_id": "Q05",
+    "consulta_normalizada": "descripción habitación mueble",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_2_tfidf",
+    "query_id": "Q06",
+    "consulta_normalizada": "experiencia enseñanza aprendizaje disciplina escolar",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_2_tfidf",
+    "query_id": "Q07",
+    "consulta_normalizada": "práctica religioso influir conducta experiencia personaje",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_2_tfidf",
+    "query_id": "Q08",
+    "consulta_normalizada": "persona necesitar cuidado estado salud",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_2_tfidf",
+    "query_id": "Q09",
+    "consulta_normalizada": "música formar parte experiencia emocional social",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_2_tfidf",
+    "query_id": "Q10",
+    "consulta_normalizada": "apariencia físico provocar impresión juicio persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_2_tfidf",
+    "query_id": "Q11",
+    "consulta_normalizada": "subsistencia persona depender ayuda material",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "titulo_2_tfidf",
+    "query_id": "Q12",
+    "consulta_normalizada": "persona disimulo sentir mantener apariencia",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_2_tfidf",
+    "query_id": "Q13",
+    "consulta_normalizada": "recuerdo experiencia anterior modifico manera vivir comprender presente",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 2,
+    "no_juzgados_top10": 8
+  },
+  {
+    "configuracion": "titulo_2_tfidf",
+    "query_id": "Q14",
+    "consulta_normalizada": "diferencia posición social condicionar manera tratar valorar",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "titulo_2_tfidf",
+    "query_id": "Q15",
+    "consulta_normalizada": "preocupación opinión ajeno influir hacer sentir persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_1_frecuencia",
+    "query_id": "Q01",
+    "consulta_normalizada": "personaje escribir recibir leen carta",
+    "documentos_similitud_positiva": 159,
+    "avisos": [
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 4,
+    "no_juzgados_top10": 6
+  },
+  {
+    "configuracion": "texto_1_frecuencia",
+    "query_id": "Q02",
+    "consulta_normalizada": "conversación transacción dinero precio pago",
+    "documentos_similitud_positiva": 106,
+    "avisos": [],
+    "relevantes_juzgados_top10": 2,
+    "no_juzgados_top10": 8
+  },
+  {
+    "configuracion": "texto_1_frecuencia",
+    "query_id": "Q03",
+    "consulta_normalizada": "descripción ropa viste persona",
+    "documentos_similitud_positiva": 127,
+    "avisos": [
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_1_frecuencia",
+    "query_id": "Q04",
+    "consulta_normalizada": "personaje comar beber comida",
+    "documentos_similitud_positiva": 72,
+    "avisos": [],
+    "relevantes_juzgados_top10": 3,
+    "no_juzgados_top10": 7
+  },
+  {
+    "configuracion": "texto_1_frecuencia",
+    "query_id": "Q05",
+    "consulta_normalizada": "descripción habitación mueble",
+    "documentos_similitud_positiva": 85,
+    "avisos": [],
+    "relevantes_juzgados_top10": 5,
+    "no_juzgados_top10": 5
+  },
+  {
+    "configuracion": "texto_1_frecuencia",
+    "query_id": "Q06",
+    "consulta_normalizada": "experiencia enseñanza aprendizaje disciplina escolar",
+    "documentos_similitud_positiva": 33,
+    "avisos": [
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_1_frecuencia",
+    "query_id": "Q07",
+    "consulta_normalizada": "práctica religioso influir conducta experiencia personaje",
+    "documentos_similitud_positiva": 71,
+    "avisos": [],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_1_frecuencia",
+    "query_id": "Q08",
+    "consulta_normalizada": "persona necesitar cuidado estado salud",
+    "documentos_similitud_positiva": 205,
+    "avisos": [],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_1_frecuencia",
+    "query_id": "Q09",
+    "consulta_normalizada": "música formar parte experiencia emocional social",
+    "documentos_similitud_positiva": 200,
+    "avisos": [],
+    "relevantes_juzgados_top10": 2,
+    "no_juzgados_top10": 8
+  },
+  {
+    "configuracion": "texto_1_frecuencia",
+    "query_id": "Q10",
+    "consulta_normalizada": "apariencia físico provocar impresión juicio persona",
+    "documentos_similitud_positiva": 167,
+    "avisos": [],
+    "relevantes_juzgados_top10": 2,
+    "no_juzgados_top10": 8
+  },
+  {
+    "configuracion": "texto_1_frecuencia",
+    "query_id": "Q11",
+    "consulta_normalizada": "subsistencia persona depender ayuda material",
+    "documentos_similitud_positiva": 153,
+    "avisos": [
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_1_frecuencia",
+    "query_id": "Q12",
+    "consulta_normalizada": "persona disimulo sentir mantener apariencia",
+    "documentos_similitud_positiva": 247,
+    "avisos": [],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_1_frecuencia",
+    "query_id": "Q13",
+    "consulta_normalizada": "recuerdo experiencia anterior modifico manera vivir comprender presente",
+    "documentos_similitud_positiva": 229,
+    "avisos": [],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_1_frecuencia",
+    "query_id": "Q14",
+    "consulta_normalizada": "diferencia posición social condicionar manera tratar valorar",
+    "documentos_similitud_positiva": 168,
+    "avisos": [
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_1_frecuencia",
+    "query_id": "Q15",
+    "consulta_normalizada": "preocupación opinión ajeno influir hacer sentir persona",
+    "documentos_similitud_positiva": 298,
+    "avisos": [],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_1_binaria",
+    "query_id": "Q01",
+    "consulta_normalizada": "personaje escribir recibir leen carta",
+    "documentos_similitud_positiva": 159,
+    "avisos": [
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 4,
+    "no_juzgados_top10": 6
+  },
+  {
+    "configuracion": "texto_1_binaria",
+    "query_id": "Q02",
+    "consulta_normalizada": "conversación transacción dinero precio pago",
+    "documentos_similitud_positiva": 106,
+    "avisos": [],
+    "relevantes_juzgados_top10": 4,
+    "no_juzgados_top10": 6
+  },
+  {
+    "configuracion": "texto_1_binaria",
+    "query_id": "Q03",
+    "consulta_normalizada": "descripción ropa viste persona",
+    "documentos_similitud_positiva": 127,
+    "avisos": [
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_1_binaria",
+    "query_id": "Q04",
+    "consulta_normalizada": "personaje comar beber comida",
+    "documentos_similitud_positiva": 72,
+    "avisos": [],
+    "relevantes_juzgados_top10": 3,
+    "no_juzgados_top10": 7
+  },
+  {
+    "configuracion": "texto_1_binaria",
+    "query_id": "Q05",
+    "consulta_normalizada": "descripción habitación mueble",
+    "documentos_similitud_positiva": 85,
+    "avisos": [],
+    "relevantes_juzgados_top10": 5,
+    "no_juzgados_top10": 5
+  },
+  {
+    "configuracion": "texto_1_binaria",
+    "query_id": "Q06",
+    "consulta_normalizada": "experiencia enseñanza aprendizaje disciplina escolar",
+    "documentos_similitud_positiva": 33,
+    "avisos": [
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_1_binaria",
+    "query_id": "Q07",
+    "consulta_normalizada": "práctica religioso influir conducta experiencia personaje",
+    "documentos_similitud_positiva": 71,
+    "avisos": [],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_1_binaria",
+    "query_id": "Q08",
+    "consulta_normalizada": "persona necesitar cuidado estado salud",
+    "documentos_similitud_positiva": 205,
+    "avisos": [],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_1_binaria",
+    "query_id": "Q09",
+    "consulta_normalizada": "música formar parte experiencia emocional social",
+    "documentos_similitud_positiva": 200,
+    "avisos": [],
+    "relevantes_juzgados_top10": 2,
+    "no_juzgados_top10": 8
+  },
+  {
+    "configuracion": "texto_1_binaria",
+    "query_id": "Q10",
+    "consulta_normalizada": "apariencia físico provocar impresión juicio persona",
+    "documentos_similitud_positiva": 167,
+    "avisos": [],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_1_binaria",
+    "query_id": "Q11",
+    "consulta_normalizada": "subsistencia persona depender ayuda material",
+    "documentos_similitud_positiva": 153,
+    "avisos": [
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_1_binaria",
+    "query_id": "Q12",
+    "consulta_normalizada": "persona disimulo sentir mantener apariencia",
+    "documentos_similitud_positiva": 247,
+    "avisos": [],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_1_binaria",
+    "query_id": "Q13",
+    "consulta_normalizada": "recuerdo experiencia anterior modifico manera vivir comprender presente",
+    "documentos_similitud_positiva": 229,
+    "avisos": [],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_1_binaria",
+    "query_id": "Q14",
+    "consulta_normalizada": "diferencia posición social condicionar manera tratar valorar",
+    "documentos_similitud_positiva": 168,
+    "avisos": [
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_1_binaria",
+    "query_id": "Q15",
+    "consulta_normalizada": "preocupación opinión ajeno influir hacer sentir persona",
+    "documentos_similitud_positiva": 298,
+    "avisos": [],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_1_tfidf",
+    "query_id": "Q01",
+    "consulta_normalizada": "personaje escribir recibir leen carta",
+    "documentos_similitud_positiva": 159,
+    "avisos": [
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 4,
+    "no_juzgados_top10": 6
+  },
+  {
+    "configuracion": "texto_1_tfidf",
+    "query_id": "Q02",
+    "consulta_normalizada": "conversación transacción dinero precio pago",
+    "documentos_similitud_positiva": 106,
+    "avisos": [],
+    "relevantes_juzgados_top10": 2,
+    "no_juzgados_top10": 8
+  },
+  {
+    "configuracion": "texto_1_tfidf",
+    "query_id": "Q03",
+    "consulta_normalizada": "descripción ropa viste persona",
+    "documentos_similitud_positiva": 127,
+    "avisos": [
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_1_tfidf",
+    "query_id": "Q04",
+    "consulta_normalizada": "personaje comar beber comida",
+    "documentos_similitud_positiva": 72,
+    "avisos": [],
+    "relevantes_juzgados_top10": 3,
+    "no_juzgados_top10": 7
+  },
+  {
+    "configuracion": "texto_1_tfidf",
+    "query_id": "Q05",
+    "consulta_normalizada": "descripción habitación mueble",
+    "documentos_similitud_positiva": 85,
+    "avisos": [],
+    "relevantes_juzgados_top10": 4,
+    "no_juzgados_top10": 6
+  },
+  {
+    "configuracion": "texto_1_tfidf",
+    "query_id": "Q06",
+    "consulta_normalizada": "experiencia enseñanza aprendizaje disciplina escolar",
+    "documentos_similitud_positiva": 33,
+    "avisos": [
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 2,
+    "no_juzgados_top10": 8
+  },
+  {
+    "configuracion": "texto_1_tfidf",
+    "query_id": "Q07",
+    "consulta_normalizada": "práctica religioso influir conducta experiencia personaje",
+    "documentos_similitud_positiva": 71,
+    "avisos": [],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_1_tfidf",
+    "query_id": "Q08",
+    "consulta_normalizada": "persona necesitar cuidado estado salud",
+    "documentos_similitud_positiva": 205,
+    "avisos": [],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_1_tfidf",
+    "query_id": "Q09",
+    "consulta_normalizada": "música formar parte experiencia emocional social",
+    "documentos_similitud_positiva": 200,
+    "avisos": [],
+    "relevantes_juzgados_top10": 2,
+    "no_juzgados_top10": 8
+  },
+  {
+    "configuracion": "texto_1_tfidf",
+    "query_id": "Q10",
+    "consulta_normalizada": "apariencia físico provocar impresión juicio persona",
+    "documentos_similitud_positiva": 167,
+    "avisos": [],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_1_tfidf",
+    "query_id": "Q11",
+    "consulta_normalizada": "subsistencia persona depender ayuda material",
+    "documentos_similitud_positiva": 153,
+    "avisos": [
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_1_tfidf",
+    "query_id": "Q12",
+    "consulta_normalizada": "persona disimulo sentir mantener apariencia",
+    "documentos_similitud_positiva": 247,
+    "avisos": [],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_1_tfidf",
+    "query_id": "Q13",
+    "consulta_normalizada": "recuerdo experiencia anterior modifico manera vivir comprender presente",
+    "documentos_similitud_positiva": 229,
+    "avisos": [],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_1_tfidf",
+    "query_id": "Q14",
+    "consulta_normalizada": "diferencia posición social condicionar manera tratar valorar",
+    "documentos_similitud_positiva": 168,
+    "avisos": [
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_1_tfidf",
+    "query_id": "Q15",
+    "consulta_normalizada": "preocupación opinión ajeno influir hacer sentir persona",
+    "documentos_similitud_positiva": 298,
+    "avisos": [],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_2_frecuencia",
+    "query_id": "Q01",
+    "consulta_normalizada": "personaje escribir recibir leen carta",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_frecuencia",
+    "query_id": "Q02",
+    "consulta_normalizada": "conversación transacción dinero precio pago",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_2_frecuencia",
+    "query_id": "Q03",
+    "consulta_normalizada": "descripción ropa viste persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_2_frecuencia",
+    "query_id": "Q04",
+    "consulta_normalizada": "personaje comar beber comida",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_2_frecuencia",
+    "query_id": "Q05",
+    "consulta_normalizada": "descripción habitación mueble",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_frecuencia",
+    "query_id": "Q06",
+    "consulta_normalizada": "experiencia enseñanza aprendizaje disciplina escolar",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_frecuencia",
+    "query_id": "Q07",
+    "consulta_normalizada": "práctica religioso influir conducta experiencia personaje",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_frecuencia",
+    "query_id": "Q08",
+    "consulta_normalizada": "persona necesitar cuidado estado salud",
+    "documentos_similitud_positiva": 2,
+    "avisos": [
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_frecuencia",
+    "query_id": "Q09",
+    "consulta_normalizada": "música formar parte experiencia emocional social",
+    "documentos_similitud_positiva": 3,
+    "avisos": [
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_frecuencia",
+    "query_id": "Q10",
+    "consulta_normalizada": "apariencia físico provocar impresión juicio persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_2_frecuencia",
+    "query_id": "Q11",
+    "consulta_normalizada": "subsistencia persona depender ayuda material",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_frecuencia",
+    "query_id": "Q12",
+    "consulta_normalizada": "persona disimulo sentir mantener apariencia",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_2_frecuencia",
+    "query_id": "Q13",
+    "consulta_normalizada": "recuerdo experiencia anterior modifico manera vivir comprender presente",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 2,
+    "no_juzgados_top10": 8
+  },
+  {
+    "configuracion": "texto_2_frecuencia",
+    "query_id": "Q14",
+    "consulta_normalizada": "diferencia posición social condicionar manera tratar valorar",
+    "documentos_similitud_positiva": 2,
+    "avisos": [
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_frecuencia",
+    "query_id": "Q15",
+    "consulta_normalizada": "preocupación opinión ajeno influir hacer sentir persona",
+    "documentos_similitud_positiva": 8,
+    "avisos": [
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_binaria",
+    "query_id": "Q01",
+    "consulta_normalizada": "personaje escribir recibir leen carta",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_binaria",
+    "query_id": "Q02",
+    "consulta_normalizada": "conversación transacción dinero precio pago",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_2_binaria",
+    "query_id": "Q03",
+    "consulta_normalizada": "descripción ropa viste persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_2_binaria",
+    "query_id": "Q04",
+    "consulta_normalizada": "personaje comar beber comida",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_2_binaria",
+    "query_id": "Q05",
+    "consulta_normalizada": "descripción habitación mueble",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_binaria",
+    "query_id": "Q06",
+    "consulta_normalizada": "experiencia enseñanza aprendizaje disciplina escolar",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_binaria",
+    "query_id": "Q07",
+    "consulta_normalizada": "práctica religioso influir conducta experiencia personaje",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_binaria",
+    "query_id": "Q08",
+    "consulta_normalizada": "persona necesitar cuidado estado salud",
+    "documentos_similitud_positiva": 2,
+    "avisos": [
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_binaria",
+    "query_id": "Q09",
+    "consulta_normalizada": "música formar parte experiencia emocional social",
+    "documentos_similitud_positiva": 3,
+    "avisos": [
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_binaria",
+    "query_id": "Q10",
+    "consulta_normalizada": "apariencia físico provocar impresión juicio persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_2_binaria",
+    "query_id": "Q11",
+    "consulta_normalizada": "subsistencia persona depender ayuda material",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_binaria",
+    "query_id": "Q12",
+    "consulta_normalizada": "persona disimulo sentir mantener apariencia",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_2_binaria",
+    "query_id": "Q13",
+    "consulta_normalizada": "recuerdo experiencia anterior modifico manera vivir comprender presente",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 2,
+    "no_juzgados_top10": 8
+  },
+  {
+    "configuracion": "texto_2_binaria",
+    "query_id": "Q14",
+    "consulta_normalizada": "diferencia posición social condicionar manera tratar valorar",
+    "documentos_similitud_positiva": 2,
+    "avisos": [
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_binaria",
+    "query_id": "Q15",
+    "consulta_normalizada": "preocupación opinión ajeno influir hacer sentir persona",
+    "documentos_similitud_positiva": 8,
+    "avisos": [
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_tfidf",
+    "query_id": "Q01",
+    "consulta_normalizada": "personaje escribir recibir leen carta",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_tfidf",
+    "query_id": "Q02",
+    "consulta_normalizada": "conversación transacción dinero precio pago",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_2_tfidf",
+    "query_id": "Q03",
+    "consulta_normalizada": "descripción ropa viste persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_2_tfidf",
+    "query_id": "Q04",
+    "consulta_normalizada": "personaje comar beber comida",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_2_tfidf",
+    "query_id": "Q05",
+    "consulta_normalizada": "descripción habitación mueble",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_tfidf",
+    "query_id": "Q06",
+    "consulta_normalizada": "experiencia enseñanza aprendizaje disciplina escolar",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_tfidf",
+    "query_id": "Q07",
+    "consulta_normalizada": "práctica religioso influir conducta experiencia personaje",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_tfidf",
+    "query_id": "Q08",
+    "consulta_normalizada": "persona necesitar cuidado estado salud",
+    "documentos_similitud_positiva": 2,
+    "avisos": [
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_tfidf",
+    "query_id": "Q09",
+    "consulta_normalizada": "música formar parte experiencia emocional social",
+    "documentos_similitud_positiva": 3,
+    "avisos": [
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_tfidf",
+    "query_id": "Q10",
+    "consulta_normalizada": "apariencia físico provocar impresión juicio persona",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_2_tfidf",
+    "query_id": "Q11",
+    "consulta_normalizada": "subsistencia persona depender ayuda material",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_tfidf",
+    "query_id": "Q12",
+    "consulta_normalizada": "persona disimulo sentir mantener apariencia",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 1,
+    "no_juzgados_top10": 9
+  },
+  {
+    "configuracion": "texto_2_tfidf",
+    "query_id": "Q13",
+    "consulta_normalizada": "recuerdo experiencia anterior modifico manera vivir comprender presente",
+    "documentos_similitud_positiva": 0,
+    "avisos": [
+      "La consulta no tiene características presentes en este vocabulario.",
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 2,
+    "no_juzgados_top10": 8
+  },
+  {
+    "configuracion": "texto_2_tfidf",
+    "query_id": "Q14",
+    "consulta_normalizada": "diferencia posición social condicionar manera tratar valorar",
+    "documentos_similitud_positiva": 2,
+    "avisos": [
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  },
+  {
+    "configuracion": "texto_2_tfidf",
+    "query_id": "Q15",
+    "consulta_normalizada": "preocupación opinión ajeno influir hacer sentir persona",
+    "documentos_similitud_positiva": 8,
+    "avisos": [
+      "Hay menos de diez documentos con similitud positiva. Los ceros completan el Top-10 y no indican coincidencia.",
+      "Algunas características de la consulta no están en el vocabulario."
+    ],
+    "relevantes_juzgados_top10": 0,
+    "no_juzgados_top10": 10
+  }
+]

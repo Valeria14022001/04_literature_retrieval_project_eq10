@@ -1,0 +1,216 @@
+{
+  "estado": "Resultados provisionales sobre benchmark de desarrollo con juicios IA; validación humana pendiente",
+  "consultas": 15,
+  "juicios": 190,
+  "configuraciones": 12,
+  "rankings": 180,
+  "resultados_top10": 1800,
+  "baseline": "texto_1_tfidf",
+  "criterio_analisis": "Cinco mayores y cinco menores nDCG@10 de la baseline, con desempate por query_id y sin solapamiento",
+  "mejores_relativas": [
+    {
+      "configuracion": "texto_1_tfidf",
+      "query_id": "Q05",
+      "difficulty_level": "1",
+      "P@10": 0.4,
+      "R@10": 0.3076923076923077,
+      "F1@10": 0.34782608695652173,
+      "RR": 1.0,
+      "nDCG@10": 0.45377801052271405
+    },
+    {
+      "configuracion": "texto_1_tfidf",
+      "query_id": "Q01",
+      "difficulty_level": "1",
+      "P@10": 0.4,
+      "R@10": 0.26666666666666666,
+      "F1@10": 0.32,
+      "RR": 1.0,
+      "nDCG@10": 0.4046336751928078
+    },
+    {
+      "configuracion": "texto_1_tfidf",
+      "query_id": "Q09",
+      "difficulty_level": "2",
+      "P@10": 0.2,
+      "R@10": 0.16666666666666666,
+      "F1@10": 0.1818181818181818,
+      "RR": 1.0,
+      "nDCG@10": 0.35384496218802086
+    },
+    {
+      "configuracion": "texto_1_tfidf",
+      "query_id": "Q06",
+      "difficulty_level": "2",
+      "P@10": 0.2,
+      "R@10": 0.16666666666666666,
+      "F1@10": 0.1818181818181818,
+      "RR": 1.0,
+      "nDCG@10": 0.34996214474846005
+    },
+    {
+      "configuracion": "texto_1_tfidf",
+      "query_id": "Q04",
+      "difficulty_level": "1",
+      "P@10": 0.3,
+      "R@10": 0.21428571428571427,
+      "F1@10": 0.25,
+      "RR": 0.5,
+      "nDCG@10": 0.2580961560814489
+    }
+  ],
+  "peores_relativas": [
+    {
+      "configuracion": "texto_1_tfidf",
+      "query_id": "Q03",
+      "difficulty_level": "1",
+      "P@10": 0.0,
+      "R@10": 0.0,
+      "F1@10": 0.0,
+      "RR": 0.0,
+      "nDCG@10": 0.0
+    },
+    {
+      "configuracion": "texto_1_tfidf",
+      "query_id": "Q07",
+      "difficulty_level": "2",
+      "P@10": 0.0,
+      "R@10": 0.0,
+      "F1@10": 0.0,
+      "RR": 0.0,
+      "nDCG@10": 0.0
+    },
+    {
+      "configuracion": "texto_1_tfidf",
+      "query_id": "Q10",
+      "difficulty_level": "2",
+      "P@10": 0.0,
+      "R@10": 0.0,
+      "F1@10": 0.0,
+      "RR": 0.0,
+      "nDCG@10": 0.0
+    },
+    {
+      "configuracion": "texto_1_tfidf",
+      "query_id": "Q12",
+      "difficulty_level": "3",
+      "P@10": 0.0,
+      "R@10": 0.0,
+      "F1@10": 0.0,
+      "RR": 0.0,
+      "nDCG@10": 0.0
+    },
+    {
+      "configuracion": "texto_1_tfidf",
+      "query_id": "Q14",
+      "difficulty_level": "3",
+      "P@10": 0.0,
+      "R@10": 0.0,
+      "F1@10": 0.0,
+      "RR": 0.0,
+      "nDCG@10": 0.0
+    }
+  ],
+  "configuraciones_resumen": [
+    {
+      "configuracion": "titulo_1_frecuencia",
+      "P@10": 0.060000000000000005,
+      "R@10": 0.048412698412698414,
+      "F1@10": 0.05353535353535353,
+      "nDCG@10": 0.04818464772409551,
+      "MRR": 0.09703703703703703
+    },
+    {
+      "configuracion": "titulo_1_binaria",
+      "P@10": 0.060000000000000005,
+      "R@10": 0.048412698412698414,
+      "F1@10": 0.05353535353535353,
+      "nDCG@10": 0.04818464772409551,
+      "MRR": 0.09703703703703703
+    },
+    {
+      "configuracion": "titulo_1_tfidf",
+      "P@10": 0.060000000000000005,
+      "R@10": 0.048412698412698414,
+      "F1@10": 0.05353535353535353,
+      "nDCG@10": 0.04818464772409551,
+      "MRR": 0.09703703703703703
+    },
+    {
+      "configuracion": "titulo_2_frecuencia",
+      "P@10": 0.060000000000000005,
+      "R@10": 0.048412698412698414,
+      "F1@10": 0.05353535353535353,
+      "nDCG@10": 0.04818464772409551,
+      "MRR": 0.09703703703703703
+    },
+    {
+      "configuracion": "titulo_2_binaria",
+      "P@10": 0.060000000000000005,
+      "R@10": 0.048412698412698414,
+      "F1@10": 0.05353535353535353,
+      "nDCG@10": 0.04818464772409551,
+      "MRR": 0.09703703703703703
+    },
+    {
+      "configuracion": "titulo_2_tfidf",
+      "P@10": 0.060000000000000005,
+      "R@10": 0.048412698412698414,
+      "F1@10": 0.05353535353535353,
+      "nDCG@10": 0.04818464772409551,
+      "MRR": 0.09703703703703703
+    },
+    {
+      "configuracion": "texto_1_frecuencia",
+      "P@10": 0.15333333333333335,
+      "R@10": 0.11802197802197802,
+      "F1@10": 0.13314712340799298,
+      "nDCG@10": 0.17683272548119996,
+      "MRR": 0.5177777777777778
+    },
+    {
+      "configuracion": "texto_1_binaria",
+      "P@10": 0.13333333333333333,
+      "R@10": 0.10135531135531135,
+      "F1@10": 0.11496530522617479,
+      "nDCG@10": 0.12148276569485793,
+      "MRR": 0.24666666666666667
+    },
+    {
+      "configuracion": "texto_1_tfidf",
+      "P@10": 0.14,
+      "R@10": 0.10733821733821734,
+      "F1@10": 0.12128941589811154,
+      "nDCG@10": 0.1496813901462333,
+      "MRR": 0.3724867724867725
+    },
+    {
+      "configuracion": "texto_2_frecuencia",
+      "P@10": 0.04666666666666667,
+      "R@10": 0.0373015873015873,
+      "F1@10": 0.04141414141414141,
+      "nDCG@10": 0.037827779244076196,
+      "MRR": 0.07703703703703703
+    },
+    {
+      "configuracion": "texto_2_binaria",
+      "P@10": 0.04666666666666667,
+      "R@10": 0.0373015873015873,
+      "F1@10": 0.04141414141414141,
+      "nDCG@10": 0.037827779244076196,
+      "MRR": 0.07703703703703703
+    },
+    {
+      "configuracion": "texto_2_tfidf",
+      "P@10": 0.04666666666666667,
+      "R@10": 0.0373015873015873,
+      "F1@10": 0.04141414141414141,
+      "nDCG@10": 0.037827779244076196,
+      "MRR": 0.07703703703703703
+    }
+  ],
+  "hash_queries": "946e2eba186d1255626a7590c227fdffca14687b6315aa92be7020c73a6cefd9",
+  "hash_qrels": "1b26605f186456ea15564a241429512cc5e5a616a53f4101c8773831c16d4623",
+  "hash_corpus": "e94fe3603fb9ba41d9ded0e89bb57977637c710fc8eaec57a476cfad52b6ab28",
+  "advertencia": "Ausentes de qrels son no juzgados tratados como 0 solo para este ejercicio. Métricas relativas a un conjunto incompleto, no exactitud sobre todo el corpus."
+}

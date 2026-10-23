@@ -1,0 +1,15 @@
+# Entorno principal observado: CPython 3.14.3 (Windows).
+# Versiones registradas en el equipo de desarrollo; no es un lock de transitivas.
+spacy==3.8.16
+numpy==2.5.4
+scipy==1.18.1
+scikit-learn==1.9.1
+joblib==1.6.0
+beautifulsoup4==4.15.0
+
+# Modelo exacto utilizado para normalizar corpus y consultas.
+# La instalacion de esta linea requiere acceso a GitHub.
+es-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/es_core_news_sm-3.8.0/es_core_news_sm-3.8.0-py3-none-any.whl#sha256=e451a83d6df79b87e9eed0cb553f03e99e36a3bab18a7b79f0dcfd1fdf875e12
+
+# Catalogacion de fuentes PDF: instalado en el entorno principal.
+PyMuPDF==2.0

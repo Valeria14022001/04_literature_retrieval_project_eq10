@@ -1,7 +1,6 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import argparse
+import hashlib
+import json
 import csv
 import os
 from pathlib import Path
@@ -79,6 +78,14 @@ def normalizar_doc(doc) -> str:
     return " ".join(terminos)
 
 
+def preparar_para_spacy(texto: str) -> str:
+    """Separa rayas y guiones de diálogo solo en la vista de análisis."""
+    texto = normalizar_espacios(texto)
+    return normalizar_espacios(re.sub(
+        r"[—–]|(?<!\w)-(?=[^\W\d_]|[¡¿«“])|(?<=[^\W\d_])-(?=\s|[¡¿.!?,;:»”]|$)",
+        " ", texto))
+
+
 def crear_demo(ruta: Path, forzar: bool = False) -> None:
     ruta.parent.mkdir(parents=True, exist_ok=True)
     if ruta.exists() and not forzar:
@@ -133,8 +140,8 @@ def procesar(entrada: Path, salida: Path, modelo: str, lote: int = 32) -> None:
         raise ValueError("fragment_id debe ser no vacío y único para cada fila.")
 
     # Normalizar ambos campos a través del MISMO pipeline spaCy.
-    titulos = [normalizar_espacios(f["title"]) for f in filas]
-    textos = [normalizar_espacios(f["text"]) for f in filas]
+    titulos = [preparar_para_spacy(f["title"]) for f in filas]
+    textos = [preparar_para_spacy(f["text"]) for f in filas]
     titulos_norm = [normalizar_doc(d) for d in nlp.pipe(titulos, batch_size=lote)]
     textos_norm = [normalizar_doc(d) for d in nlp.pipe(textos, batch_size=lote)]
 
@@ -155,6 +162,13 @@ def procesar(entrada: Path, salida: Path, modelo: str, lote: int = 32) -> None:
     finally:
         if temporal is not None and temporal.exists():
             temporal.unlink()
+
+    # Metadatos producidos aquí, sin ejecutar un validador independiente.
+    metadatos = dict(modelo=modelo, modelo_version=nlp.meta['version'], spacy=spacy.__version__,
+        idioma=nlp.lang, politica_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+        sha256_original=hashlib.sha256(entrada.read_bytes()).hexdigest(),
+        sha256_normalizado=hashlib.sha256(salida.read_bytes()).hexdigest(), fragmentos=len(filas))
+    salida.with_name('normalizacion.json').write_text(json.dumps(metadatos,ensure_ascii=False,indent=2),encoding='utf-8')
 
     print(f"Corpus normalizado: {salida}")
     print(f"Filas: {len(filas)} | Modelo: {modelo} | POS excluidos: {', '.join(sorted(POS_EXCLUIR))}")

@@ -249,9 +249,9 @@ def run(args):
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--corpus',type=Path,default=ROOT/'datos/literature_raw_corpus.tsv')
-    parser.add_argument('--origen',type=Path,default=ROOT/'textos_extraidos')
+    parser.add_argument('--origen',type=Path,default=ROOT/'datos/fuentes_epub')
     parser.add_argument('--candidatos',type=Path,default=ROOT/'datos/candidatos/candidatos.tsv')
-    parser.add_argument('--salida',type=Path,default=ROOT/'datos/auditoria_narrativa')
+    parser.add_argument('--salida',type=Path,default=ROOT/'auditoria/revision_narrativa')
     parser.add_argument('--contexto',type=int,default=1200,help='Caracteres anteriores y posteriores de la fuente')
     args=parser.parse_args()
     if args.contexto<1:

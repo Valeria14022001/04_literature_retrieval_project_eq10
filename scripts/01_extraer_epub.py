@@ -6,8 +6,8 @@ import re
 import unicodedata
 
 
-CARPETA_ENTRADA = Path("descargas_elejandria/epub")
-CARPETA_SALIDA = Path("textos_extraidos/epub")
+CARPETA_ENTRADA = Path("fuentes/epub")
+CARPETA_SALIDA = Path("datos/fuentes_epub")
 
 
 def limpiar_nombre(nombre):
@@ -97,40 +97,26 @@ def html_a_texto(contenido):
     for etiqueta in sopa(["script", "style", "head", "nav", "metadata"]):
         etiqueta.decompose()
 
-    texto = sopa.get_text("\n", strip=True)
-    texto = texto.replace("\xa0", " ")
-
-    lineas = []
-    for linea in texto.splitlines():
-        linea = linea.strip()
-        if linea:
-            lineas.append(linea)
-
-    return "\n".join(lineas)
+    # Los cambios de estilo no son límites de palabra ni de párrafo.
+    # get_text("\n") dividía palabras alrededor de span/em/a.
+    cuerpo = sopa.body or sopa
+    bloques = cuerpo.find_all(["p", "h1", "h2", "h3", "h4", "h5", "h6", "li", "pre"])
+    bloques = [b for b in bloques if not b.find_parent(["p", "h1", "h2", "h3", "h4", "h5", "h6", "li", "pre"])]
+    textos = []
+    for bloque in bloques or [cuerpo]:
+        for br in bloque.find_all("br"):
+            br.replace_with("\uE000")
+        texto = bloque.get_text("", strip=False).replace("\xa0", " ")
+        texto = re.sub(r"\s+", " ", texto).replace("\uE000", "\n").strip()
+        if texto:
+            textos.append(texto)
+    return "\n\n".join(textos)
 
 
 def extraer_epub(ruta_epub):
-    with ZipFile(ruta_epub, "r") as epub:
-        ruta_opf = obtener_ruta_opf(epub)
-        archivos = obtener_archivos_en_orden(epub, ruta_opf)
-
-        if not archivos:
-            archivos = obtener_archivos_html_respaldo(epub)
-
-        textos = []
-
-        for archivo in archivos:
-            try:
-                contenido = epub.read(archivo).decode("utf-8", errors="ignore")
-                texto = html_a_texto(contenido)
-
-                if texto:
-                    textos.append(texto)
-
-            except Exception as error:
-                print(f"  No pude leer {archivo}: {error}")
-
-        return "\n\n".join(textos)
+    'Extrae la vista estructurada; 08_corregir_corpus guarda su procedencia detallada.'
+    from fuentes_estructuradas import extract_book
+    return extract_book(Path(ruta_epub))['text']
 
 
 def main():
@@ -139,7 +125,7 @@ def main():
     archivos_epub = sorted(CARPETA_ENTRADA.glob("*.epub"))
 
     if not archivos_epub:
-        print("No encontré archivos EPUB en descargas_elejandria/epub")
+        print("No encontré archivos EPUB en fuentes/epub")
         return
 
     for indice, ruta_epub in enumerate(archivos_epub, start=1):
