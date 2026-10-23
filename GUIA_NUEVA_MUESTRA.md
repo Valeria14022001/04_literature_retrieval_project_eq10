@@ -1,12 +1,10 @@
 # Guía para construir y utilizar otra muestra literaria
 
-Esta guía permite reutilizar los programas del proyecto sin haber participado en su desarrollo. Explica cómo pasar de libros EPUB a un corpus auditado, un buscador y una evaluación de recuperación. Está basada en los scripts de la entrega mínima; los nombres y comandos corresponden a esos archivos.
-
-**La nueva muestra se debe trabajar en una carpeta distinta.** Los corpus, juicios de relevancia, fichas de auditoría y resultados incluidos en la entrega pertenecen al experimento anterior. No son evidencias de la calidad de las nuevas obras.
+Esta guía permite entender como funciona el proyecto, desde libros EPUB a un corpus auditado, un buscador y una evaluación de recuperación. 
 
 ## 1. Qué se va a construir
 
-El sistema no busca en las novelas completas directamente. Primero obtiene pasajes o fragmentos; cada fragmento se convierte en un documento recuperable. Después transforma sus títulos y textos en vectores de términos. Una consulta se procesa con la misma normalización y se compara con esos vectores mediante similitud coseno.
+A partir de las novelas, se obtienen pasajes o fragmentos; cada uno se convierte en un documento recuperable. Después transforma sus títulos y textos en vectores de términos. Una consulta se procesa con la misma normalización y se compara con esos vectores mediante similitud coseno.
 
 El recorrido es:
 
@@ -18,10 +16,10 @@ Catálogo y textos extraídos de las obras
 Todos los fragmentos candidatos
     ↓ 03
 Muestra seleccionada: corpus sin normalizar
-    ↓ 04 + 04b + revisión humana y correcciones
-Corpus cuya calidad y limitaciones están documentadas
+    ↓ 04 + 04b + auditoría manual y correcciones
+Corpus auditado
     ↓ 05
-Corpus normalizado para análisis
+Corpus normalizado 
     ↓ 07
 12 matrices y 12 vectorizadores
     ↓ 09
@@ -30,13 +28,13 @@ Consultas y rankings de diez fragmentos
 Comparación de configuraciones y análisis de errores
 ```
 
-La numeración tiene saltos porque la entrega mínima eliminó programas auxiliares. No falta ejecutar un script 06 u 08. Hay diez programas principales y dos módulos de apoyo: `config_seleccion.py` y `fuentes_estructuradas.py`.
+Hay diez programas principales y dos módulos de apoyo: `config_seleccion.py` y `fuentes_estructuradas.py`.
 
-### Conceptos que conviene distinguir
+### Conceptos
 
 | Concepto | Significado |
 |---|---|
-| Obra | Libro completo del que se extraen pasajes. |
+| Ejemplar | Libro completo del que se extraen pasajes. |
 | Candidato | Pasaje producido por la segmentación, antes de elegir la muestra. |
 | Fragmento/documento | Candidato seleccionado como unidad de recuperación. |
 | Corpus sin normalizar | Texto literario de los fragmentos después de la preparación y limpieza; todavía conserva redacción, signos y palabras funcionales. No equivale al archivo EPUB intacto. |
@@ -45,13 +43,11 @@ La numeración tiene saltos porque la entrega mínima eliminó programas auxilia
 | Ranking | Lista ordenada por similitud con una consulta. |
 | Qrels | Juicios de relevancia que permiten comparar un ranking con una referencia anotada. |
 
-Esta implementación trabaja con textos **en español**. Una obra traducida puede tener otro idioma original, pero el contenido procesado debe estar en español. Usar literatura en otra lengua requiere adaptar la política lingüística y la búsqueda, y reconstruir todos los derivados.
+Se trabajó con textos solo en español. Una obra traducida puede tener otro idioma original, pero el contenido procesado debe estar en español. 
 
 ## 2. Preparar una carpeta limpia
 
-Para una persona que comienza, la opción menos propensa a mezclar muestras es crear una carpeta nueva y copiar solamente código, configuración y dependencias. No copie los datos ni los modelos anteriores.
-
-Abra PowerShell y ejecute, cambiando las rutas si es necesario:
+En una carpeta nueva copiar código, configuración y dependencias. En PowerShell ejecutar:
 
 ```powershell
 $proyectoBase = "C:\GitHub\04_literature_retrieval_project_eq10"
