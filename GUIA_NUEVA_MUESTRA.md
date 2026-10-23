@@ -228,7 +228,7 @@ python scripts/03_seleccionar_fragmentos.py --ajustar-a 300
 
 **Entrada:** `datos/candidatos/candidatos.tsv`; configuración de `scripts/config_seleccion.py`; y, opcionalmente, `datos/overrides_seleccion.csv`.
 
-**Proceso:** agrupa candidatos por obra, calcula cuotas, distribuye la elección por zonas de posición y utiliza una puntuación heurística dentro de ellas. Esa puntuación combina vocabulario de situaciones narrativas, centralidad léxica y cercanía a una posición objetivo. No es una valoración humana de importancia literaria ni una auditoría de coherencia.
+**Proceso:** agrupa candidatos por obra, calcula cuotas, distribuye la elección por zonas de posición y utiliza una puntuación heurística dentro de ellas. Esa puntuación combina vocabulario de situaciones narrativas, centralidad léxica y cercanía a una posición objetivo. No es una valoración manual de importancia literaria ni una auditoría de coherencia.
 
 Por defecto, la configuración reserva dos pasajes por cuento; para novelas utiliza una cuota relacionada con la longitud, límites de cantidad y de cobertura. `--ajustar-a 300` busca una escala de cuotas que se acerque a 300; **no garantiza exactamente 300 ni crea candidatos adicionales**.
 
@@ -339,12 +339,12 @@ python scripts/04b_auditar_coherencia.py --contexto 1200
 
 - `resumen.json`: distribución de prioridades, indicadores y localización.
 - `fragmentos.json`: texto íntegro, indicios, pasaje fuente y contextos disponibles.
-- `revision.csv`: lista con prioridad, indicadores y columnas vacías para decisión y observaciones humanas.
+- `revision.csv`: lista con prioridad, indicadores y columnas vacías para decisión y observaciones manuals.
 - `informe.html`: fichas desplegables para comparar antes, fragmento y después.
 
 Las prioridades `alta`, `media`, `baja` y `sin_indicios` ordenan la inspección. No equivalen a rechazo, duda, aceptación y perfección. Si no hay párrafos inequívocos, el script usa ventanas de texto o párrafos de la fuente y lo indica.
 
-### Cómo hacer la revisión humana
+### Cómo hacer la revisión manual
 
 1. Empiece por prioridad alta y los problemas técnicos graves.
 2. Lea el fragmento completo; no decida únicamente por sus primeras o últimas líneas.
@@ -522,12 +522,12 @@ Cree `benchmark/juicios_evidencia.tsv` para justificar cada decisión. Puede con
 
 ```text
 query_id, document_id, relevance, justificacion, evidencia,
-inicio, fin, ancla_literal, title, revisor, validacion_humana, alcance
+inicio, fin, ancla_literal, title, revisor, validacion_manual, alcance
 ```
 
 En el archivo real use tabulaciones, no las comas explicativas de esa lista. Cite una frase o ancla localizable, indique quién revisó y si leyó el fragmento completo. Si usa offsets, defina su convención y el campo al que se refieren; pueden quedar vacíos si no se calcularon. No invente índices.
 
-10 lee directamente `queries.tsv` y `qrels.tsv`; no interpreta ni genera `juicios_evidencia.tsv`. Usted debe mantenerlos consistentes. Es recomendable que otra persona revise discrepancias. Una propuesta de IA no debe registrarse como validación humana sin esa revisión.
+10 lee directamente `queries.tsv` y `qrels.tsv`; no interpreta ni genera `juicios_evidencia.tsv`. Usted debe mantenerlos consistentes. Es recomendable que otra persona revise discrepancias. Una propuesta de IA no debe registrarse como validación manual sin esa revisión.
 
 ### 15.4 Evitar conclusiones excesivas
 
@@ -577,7 +577,7 @@ La baseline fijada en el código es `texto_1_tfidf`. Los cinco mejores y cinco p
 
 Revise siempre `diagnostico_consultas.json` junto con los promedios. Un ranking compuesto por ceros puede conseguir métricas no nulas por el desempate por ID. Eso no demuestra que el sistema haya identificado contenido pertinente.
 
-El texto de estado de `resumen.json` conserva una referencia fija a juicios IA y validación humana pendiente del experimento original. Si su nueva referencia fue anotada por humanos, actualice esa descripción en el código o documente claramente la procedencia real en su informe; el programa no la infiere.
+El texto de estado de `resumen.json` conserva una referencia fija a juicios IA y validación manual pendiente del experimento original. Si su nueva referencia fue anotada por humanos, actualice esa descripción en el código o documente claramente la procedencia real en su informe; el programa no la infiere.
 
 ## 17. Elaborar el análisis y el informe nuevos
 
@@ -634,7 +634,7 @@ Hay mensajes o comentarios heredados que mencionan nombres retirados, como `03_l
 
 ## 20. Secuencia de consulta rápida
 
-Esta lista sirve para localizar los comandos después de leer las explicaciones. **No se debe ejecutar como una cadena desatendida:** entre pasos hay revisión bibliográfica, auditoría, correcciones y anotación humana.
+Esta lista sirve para localizar los comandos después de leer las explicaciones. **No se debe ejecutar como una cadena desatendida:** entre pasos hay revisión bibliográfica, auditoría, correcciones y anotación manual.
 
 ```powershell
 # Desde la raíz nueva, con el entorno correcto y los EPUB preparados:
