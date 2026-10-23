@@ -154,16 +154,16 @@ python scripts/00_generar_catalogo_libros.py
 
 **Salida:** `catalogo_libros.csv`, con las columnas:
 
-```text
+```csv
 archivo_original, formato, titulo, autor, fuente, revisar,
 tipo, genero, epoca, idioma_original, pais_origen, url
 ```
 
-En consola debe aparecer la ruta del catálogo y el número de libros registrados. Puede aparecer una lista de libros para revisión manual.
+En consola aparece la ruta del catálogo y el número de libros registrados, puede aparecer una lista de libros para revisión manual.
 
-**Qué debe hacer antes de continuar:** abra el CSV y revise todos los registros, incluso aquellos con `revisar=no`. El programa asigna `Elejandria` como fuente inicial y puede completar valores como `novela`, `narrativo`, `sxix/sxx` o `es`; no son hechos bibliográficos verificados. Corrija esos campos para su colección y sustituya `n/a` por datos comprobados cuando corresponda. `idioma_original` describe la obra original; el texto que procesa esta implementación sigue siendo español.
+**Qué se debe hacer antes de continuar:** abra el CSV y revise todos los registros, incluso aquellos con `revisar=no`. El programa asigna `Elejandria` como fuente inicial y puede completar valores como `novela`, `narrativo`, `sxix/sxx` o `es`; no son hechos bibliográficos verificados. `idioma_original` describe la obra original; el texto que procesa esta implementación sigue siendo español.
 
-En `tipo`, utilice `novela`, `novela_corta` o `cuento` para que la selección reconozca el valor. Conserve `archivo_original` exactamente igual al nombre del archivo, incluida su extensión. No renombre las fuentes después de catalogarlas sin actualizar la correspondencia.
+En `tipo` se usa `novela`, `novela_corta` o `cuento` para que la selección reconozca el valor. Conserve `archivo_original` exactamente igual al nombre del archivo, incluida su extensión. No renombre las fuentes después de catalogarlas sin actualizar la correspondencia.
 
 **Interpretación importante:** volver a ejecutar 00 no borra las filas de libros retirados y no reemplaza automáticamente los títulos o autores ya existentes. Para una muestra nueva se comienza sin catálogo anterior. Si corrige una fila manualmente, conserve esa versión revisada.
 
