@@ -147,3 +147,7 @@ En este experimento, frecuencia con unigramas del texto obtuvo nDCG medio 0.1768
 - [Comparación de configuraciones](resultados/comparacion_configuraciones.tsv).
 
 Se conservaron los 300 fragmentos por decisión del equipo, incluidas incidencias conocidas. La auditoría y las correcciones no equivalen a aprobación narrativa final ni validación humana del benchmark. Esas limitaciones siguen vigentes en esta entrega simplificada.
+
+## Guía para una muestra nueva
+
+Para reconstruir el flujo con otras obras, consulta la [guía paso a paso](GUIA_NUEVA_MUESTRA.md). Explica los doce archivos Python, la preparación de una carpeta limpia, entradas y salidas, auditoría y correcciones, consultas y anotación de un benchmark nuevo.
