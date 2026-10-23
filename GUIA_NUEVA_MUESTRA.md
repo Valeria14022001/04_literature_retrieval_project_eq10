@@ -109,15 +109,15 @@ muestra_literaria_nueva/
 ├── auditoria/
 │   ├── revision_tecnica/               Salidas de 04
 │   ├── revision_narrativa/             Salidas de 04b
-│   └── decisiones_nueva_muestra.csv    Registro humano que usted prepara
+│   └── decisiones_nueva_muestra.csv    Parte de la auditoría manual
 ├── vectorizacion/
 │   ├── matrices/                      12 archivos NPZ
 │   ├── vectorizadores/                12 archivos joblib
 │   ├── ids_documentos.tsv
 │   └── manifiesto.json
 ├── benchmark/
-│   ├── queries.tsv                    Preparación humana
-│   ├── qrels.tsv                      Preparación humana
+│   ├── queries.tsv                    Preparación manual
+│   ├── qrels.tsv                      Preparación manual
 │   └── juicios_evidencia.tsv           Registro recomendado de justificaciones
 ├── resultados/
 │   ├── consultas/                     Ejecuciones individuales de 09
@@ -129,22 +129,18 @@ muestra_literaria_nueva/
 │   ├── comparacion_configuraciones.tsv
 │   ├── metricas_por_nivel.tsv
 │   ├── diagnostico_consultas.json
-│   ├── analisis_errores.json           No lo genera 10: análisis que debe redactar
+│   ├── analisis_errores.json           No lo genera 10: análisis que se debe redactar
 │   └── resumen.json
-└── informes/                          Informe nuevo que debe elaborar
+└── informes/                          Informe manual
 ```
 
-CSV separa columnas por comas y TSV por tabulaciones. Guárdelos en UTF-8. Los textos pueden contener saltos de línea dentro de una celda entrecomillada: no cuente líneas físicas como documentos ni edite estas tablas con reemplazos de texto indiscriminados. Un lector CSV/TSV reconoce esos campos correctamente.
+CSV separa columnas por comas y TSV por tabulaciones. Se guarda en UTF-8. Los textos pueden contener saltos de línea dentro de una celda entrecomillada: no se cuentan líneas físicas como documentos ni edite estas tablas con reemplazos de texto indiscriminados. Un lector CSV/TSV reconoce esos campos correctamente.
 
 ## 4. Elegir las obras y registrar sus fuentes
 
-Coloque sus archivos `.epub` directamente en `fuentes/epub/`. El extractor busca esa extensión en esa carpeta, sin recorrer subcarpetas. Use nombres distintos que sigan siendo distintos al quitar acentos, signos y espacios: esos nombres se convierten en identificadores y nombres TXT. Dos ediciones con nombres que se normalizan igual pueden sobrescribirse.
+Colocar los archivos `.epub` directamente en `fuentes/epub/`. El extractor busca esa extensión en esa carpeta, sin recorrer subcarpetas. Use nombres distintos que sigan siendo distintos al quitar acentos, signos y espacios: esos nombres se convierten en identificadores y nombres TXT. Dos ediciones con nombres que se normalizan igual pueden sobrescribirse. Los scripts no descargan libros, no ejecutan OCR ni resuelven archivos protegidos. La carpeta de EPUB está ignorada por Git en esta entrega por temas de espacio.
 
-Prefiera EPUB con texto seleccionable y capítulos estructurados. Una imagen escaneada no se convierte automáticamente en texto. Los scripts no descargan libros, no ejecutan OCR ni resuelven archivos protegidos.
-
-Registre desde el principio edición, procedencia y URL. Compruebe las condiciones de distribución antes de publicar las fuentes. La carpeta de EPUB está ignorada por Git en esta entrega; tener archivos localmente no implica que se suban al repositorio.
-
-Empiece con varias obras para comprobar la extracción antes de preparar toda la colección. Para cumplir un mínimo de 300 fragmentos se necesita suficiente texto elegible y diversidad; una prueba pequeña no alcanzará ese tamaño y no debe completarse duplicando pasajes.
+Se usaron varias obras para cumplir un mínimo de 300 fragmentos se necesita suficiente texto elegible y diversidad; una prueba pequeña no alcanzará ese tamaño y no debe completarse duplicando pasajes.
 
 ## 5. Script 00: generar y corregir el catálogo
 
