@@ -78,9 +78,7 @@ py -3.14 -m venv .venv
 python --version
 ```
 
-La instalación necesita internet, incluido acceso a la descarga del modelo spaCy. Las versiones del archivo corresponden al entorno de desarrollo; no constituyen una instalación limpia comprobada en todos los equipos. Si una dependencia no está disponible para su plataforma, la instalación no habrá terminado: conserve el mensaje de error y resuelva la compatibilidad antes de continuar. No cambie versiones silenciosamente y después reutilice modelos antiguos.
-
-Si PowerShell impide activar el entorno, omita la activación y sustituya `python` por `.\.venv\Scripts\python.exe` en cada comando. No necesita cambiar la política de ejecución.
+Las versiones del archivo corresponden al entorno de desarrollo. Si PowerShell impide activar el entorno, omita la activación y sustituya `python` por `.\.venv\Scripts\python.exe` en cada comando.
 
 ## 3. Estructura que se irá formando
 
@@ -94,7 +92,7 @@ muestra_literaria_nueva/
 ├── catalogo_libros.csv                 Generado por 00 y revisado por usted
 ├── fuentes/
 │   └── epub/                          EPUB originales de esta muestra
-├── scripts/                           Los 12 archivos Python
+├── scripts/                           Los 12 archivos .py (Python)
 ├── datos/
 │   ├── fuentes_epub/                  TXT extraídos por 01
 │   ├── candidatos/
