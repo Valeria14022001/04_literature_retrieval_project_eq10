@@ -1,63 +1,30 @@
-"""
-config_seleccion.py -- parametros de la Etapa B (04_seleccionar_fragmentos.py).
-
-Todo lo que probablemente quieras ajustar esta aqui. Los argumentos de linea
-de comandos del script tienen prioridad sobre estos valores.
-"""
 import re
 import unicodedata
 
-# ---------------------------------------------------------------------------
-# 1) ELEGIBILIDAD de los candidatos de la Etapa A
-#    (la Etapa A genera 700-1300; aqui se permite un poco mas de margen)
-# ---------------------------------------------------------------------------
 MIN_ACEPTABLE = 500
 MAX_ACEPTABLE = 1300
 PREFERIDO_MIN_PALABRAS = 700    # fragmentos por debajo de esto pierden puntos
 PENALIZACION_CORTO = 0.10       # puntos que pierde un fragmento < PREFERIDO_MIN_PALABRAS
 
-# ---------------------------------------------------------------------------
-# 2) CUOTAS: cuantos fragmentos se toman de cada obra
-#    - cuento: FRAGMENTOS_CUENTO (2 = presentacion/conflicto + climax/desenlace)
-#    - novela y novela_corta: un fragmento por cada PALABRAS_POR_FRAGMENTO
-#      palabras, entre MIN_NOVELA y MAX_NOVELA, y sin pasar de MAX_COBERTURA
-#      (fraccion de la obra que se permite cubrir; protege a las novelas cortas)
-# ---------------------------------------------------------------------------
 FRAGMENTOS_CUENTO = 2
 PALABRAS_POR_FRAGMENTO = 15000
 MIN_NOVELA = 8
 MAX_NOVELA = 20
 MAX_COBERTURA = 0.35
-UMBRAL_NOVELA = 20000           # si el catalogo no dice 'tipo': menos palabras = cuento
+UMBRAL_NOVELA = 20000           
 
-# ---------------------------------------------------------------------------
-# 3) ZONAS (posicion relativa 0.0-1.0). Dentro de cada zona se elige el
-#    fragmento de mayor IMPORTANCIA; la zona garantiza la cobertura del arco.
-#      novelas: k zonas del mismo ancho
-#      cuentos de 2 fragmentos: (desde, hasta, punto_objetivo)
-# ---------------------------------------------------------------------------
 ZONAS_CUENTO = [
     (0.00, 0.30, 0.05),   # presentacion del personaje y del conflicto
     (0.70, 1.01, 0.85),   # climax y desenlace
 ]
-MAX_POR_CAPITULO = 2      # tope de fragmentos de un mismo capitulo (se relaja si no hay alternativa)
+MAX_POR_CAPITULO = 2      
 
-# ---------------------------------------------------------------------------
-# 4) IMPORTANCIA = consultas + centralidad + cercania al punto objetivo de la zona
-# ---------------------------------------------------------------------------
 PESOS = {
-    "consultas": 0.5,       # cercania a las consultas de "momentos importantes"
-    "centralidad": 0.3,     # cercania al vocabulario central de la obra
-    "posicion": 0.2,        # cercania al punto objetivo de su zona
+    "consultas": 0.5,      
+    "centralidad": 0.3,    
+    "posicion": 0.2,       
 }
 
-# ---------------------------------------------------------------------------
-# 5) CONSULTAS de "momento importante" (genericas para narrativa de cualquier
-#    genero). Calce lexico por raices de 5 letras.
-#    IMPORTANTE: son consultas de SELECCION. No copies aqui las consultas del
-#    benchmark (queries.tsv); si se parecen, los resultados de evaluacion salen
-#    inflados porque el corpus se eligio para responderlas.
-# ---------------------------------------------------------------------------
 CONSULTAS_IMPORTANTES = {
     "conflicto": "pelea lucha combate batalla duelo enfrentamiento disputa discusion ataque enemigo rival amenaza",
     "muerte_perdida": "morir muerte muerto cadaver matar asesinato funeral luto perdida agonia tumba dolor",
@@ -71,10 +38,6 @@ CONSULTAS_IMPORTANTES = {
     "resolucion": "victoria triunfo libre salvado salvacion reconciliacion reencuentro final desenlace fortuna herencia",
 }
 
-# ---------------------------------------------------------------------------
-# Tokenizacion simple (sin spaCy/NLTK): minusculas, sin acentos, stopwords
-# fuera y recorte a una "raiz" de 5 letras.
-# ---------------------------------------------------------------------------
 RAIZ = 5
 
 STOPWORDS = set("""

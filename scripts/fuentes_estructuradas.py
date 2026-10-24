@@ -1,8 +1,3 @@
-"""Extrae bloques de EPUB sin insertar separadores entre etiquetas en línea.
-
-No corrige ortografía ni inventa lecturas. Conserva procedencia de cada bloque.
-Las exclusiones editoriales se registran y se limitan a estructuras conocidas.
-"""
 from pathlib import PurePosixPath
 from zipfile import ZipFile
 from urllib.parse import unquote
@@ -111,7 +106,6 @@ def extract_book(path):
 
 
 def safe_sentence_spans(text):
-    """Cortes de apoyo en párrafos extensos, sin cortar K., Dr., Sr., etc."""
     start=0
     for m in re.finditer(r'(?<=[.!?…])\s+(?=[—–\-«“"¿¡A-ZÁÉÍÓÚÜÑ])',text):
         prefix=text[:m.start()]
@@ -135,7 +129,6 @@ def cutting_units(book):
 
 
 def auxiliary(text):
-    """Vista de búsqueda con mapa; nunca se entrega como texto literario."""
     chars=[]; offsets=[]
     for i,c in enumerate(text):
         if c.isalnum(): chars.append(c); offsets.append(i)
@@ -146,8 +139,6 @@ def align_fragment(text,book):
     target,_=auxiliary(text)
     source,mapping=book['_aux']
     starts=[]; ends=[]
-    # Buscar anclas internas permite saltar título/autor al inicio sin inventar
-    # coincidencia íntegra. La cobertura se verifica por separado.
     for displacement in range(0,min(700,len(target)//3),30):
         a=target[displacement:displacement+90]
         k=source.find(a)
@@ -158,8 +149,6 @@ def align_fragment(text,book):
         if k>=0 and source.find(a,k+1)<0: ends.append((k+90,displacement)); break
     if not starts or not ends: return None
     a,da=starts[0]; b,db=ends[0]
-    # No extrapolar si el ancla se desplazó: recuperar el bloque estructural
-    # completo que la contiene y mantener registrada esa incertidumbre.
     if not .65*len(target)<=b-a<=1.6*len(target): return None
     ca,cb=mapping[a],mapping[b-1]+1
     indexes=[i for i,x in enumerate(book['units']) if x['end']>ca and x['start']<cb]

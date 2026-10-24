@@ -1,4 +1,3 @@
-"""Búsqueda VSM: normalización compartida, coseno y Top-10 trazable."""
 import argparse
 import csv
 import hashlib
@@ -48,7 +47,7 @@ class Buscador:
             spacy.__version__ != provenance['spacy'] or
             sha(self.normalizer_path) != provenance['politica_sha256']):
             raise ValueError('Modelo o normalizador diferente del corpus. Regenera normalización y vectorización.')
-        # Solo compatibilidad operativa; no se vuelve a normalizar todo el corpus.
+
         self.cache = {}
 
     def buscar(self, consulta, contenido, ngrama, representacion, query_id='Q01'):

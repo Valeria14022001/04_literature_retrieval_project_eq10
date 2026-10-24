@@ -1,8 +1,3 @@
-"""Prioriza indicios de cortes narrativos; no evalúa calidad ni modifica el corpus.
-
-python scripts/04b_auditar_coherencia.py
-Solo biblioteca estándar de Python 3.10+. Ver --help.
-"""
 import argparse
 from collections import Counter, defaultdict
 import csv
@@ -22,11 +17,6 @@ def digest(path):
 
 
 def canonical(text):
-    """Vista auxiliar con mapa a caracteres originales; jamás sustituye la fuente.
-
-    Unifica espacios, rayas y guiones de fin de línea. Conserva letras, acentos,
-    caja y signos restantes. Se usa para localizar, no para exhibir el texto.
-    """
     skip = set()
     for match in re.finditer(r'(?<=[^\W\d_])-\s*\n\s*(?=[^\W\d_])', text):
         skip.update(range(match.start(), match.end()))

@@ -1,8 +1,3 @@
-"""Auditoría de solo lectura del corpus literario sin normalizar (stdlib).
-
-Ejecutar desde cualquier carpeta: python scripts/04_auditar_corpus.py
-Los umbrales generan alertas, nunca eliminan ni reescriben fragmentos.
-"""
 from __future__ import annotations
 
 import argparse
@@ -45,11 +40,6 @@ def shingles(tokens, k):
 
 
 def similar_pairs(rows, k=5, threshold=.8, overlap=.2, min_shared=50):
-    """Índice exhaustivo de n-gramas de palabras, sensible a caja y acentos.
-
-    Jaccard detecta similitud global; contención y bloque consecutivo detectan
-    fragmentos parcialmente superpuestos. No se calcula similitud semántica.
-    """
     tokens = [r.get('text', '').split() for r in rows]
     sets = [shingles(t, k) for t in tokens]
     index = defaultdict(list)

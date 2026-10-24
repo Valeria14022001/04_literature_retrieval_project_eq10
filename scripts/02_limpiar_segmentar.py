@@ -71,7 +71,6 @@ def autor_desde_slug(slug_autor):
 
 
 def cargar_catalogo():
-    """Lee catalogo_libros.csv. Las columnas tipo/genero/epoca/url son opcionales."""
     catalogo = {}
 
     if not RUTA_CATALOGO.exists():
@@ -100,7 +99,6 @@ def cargar_catalogo():
 
 
 def metadata_desde_nombre(ruta_txt, catalogo):
-    """Devuelve (metadata, esta_en_catalogo)."""
     nombre = ruta_txt.name
 
     if nombre in catalogo:
@@ -179,9 +177,6 @@ def es_linea_basura(linea):
     if not limpia:
         return False
 
-    # Un número aislado puede ser narrativo, una fecha o una numeración.
-    # La paginación requiere evidencia estructural, no se elimina aquí.
-
     basura_exacta = {
         "cover",
         "indice",
@@ -203,9 +198,6 @@ def es_linea_basura(linea):
     if len(limpia.split()) > 25:
         return False
 
-    # Una mención narrativa a «corrección» o «transcripción» no es un
-    # crédito editorial. Exigir etiqueta al inicio, dos puntos y un valor.
-    # Sin esa estructura, conservar la línea para evitar pérdida literaria.
     if re.match(
         r"^(?:correccion|transcripcion)(?:\s+(?:de estilo|de textos|ortografica))?\s*:\s*\S",
         normal,
@@ -436,9 +428,7 @@ def limpiar_texto(texto):
     return texto.strip()
 
 
-# ----------------------------------------------------------------------------
-# Limpieza de cabeceras sueltas dentro de un fragmento (heredada)
-# ----------------------------------------------------------------------------
+# Limpieza de cabeceras sueltas dentro de un fragmento
 
 def es_numeral_romano_suelto(texto):
     return bool(re.fullmatch(r"[IVXLCDM]{1,8}", texto.strip()))
@@ -489,9 +479,6 @@ def es_titulo_suelto_de_fragmento(texto):
 
 def quitar_subtitulo_pegado(parrafo):
     parrafo = parrafo.strip()
-
-    # [CAMBIO] Solo se conserva el patron generico; se quitaron los patrones
-    # especificos de Moby Dick / Verne del proyecto anterior.
     patrones = [
         r"^Cap[íi]tulo\s+(?=(El|La|Los|Las|Un|Una|Al|Cuando|Después|Tres|Pasaron|Sería|Así)\b)",
     ]
@@ -503,15 +490,9 @@ def quitar_subtitulo_pegado(parrafo):
 
 
 def quitar_cabecera_fragmento(fragmento):
-    # Los títulos internos, versos y numerales forman parte de la estructura.
-    # Los encabezados iniciales de capítulo ya se separan en construir_capitulos.
-    # No borrar aquí líneas por mayúsculas ni subtítulos inferidos por su forma.
     return fragmento.strip()
 
-
-# ----------------------------------------------------------------------------
-# ETAPA A (nuevo): capitulos -> piezas -> candidatos con posicion relativa
-# ----------------------------------------------------------------------------
+# A: capitulos -> piezas -> candidatos con posicion relativa
 
 def dividir_por_encabezados(texto):
     bloques = []
@@ -542,7 +523,6 @@ def es_parrafo_encabezado(parrafo):
 
 
 def es_numeracion(texto):
-    """'CAPITULO IV', 'IV', '12', 'Capitulo 3.' ..."""
     return bool(re.fullmatch(
         r"(CAP[ÍI]TULO\s+)?([0-9]{1,3}|[IVXLCDM]{1,8})\.?",
         texto.strip(),
@@ -551,7 +531,6 @@ def es_numeracion(texto):
 
 
 def es_subtitulo(texto):
-    """Linea corta, sin puntuacion final, que acompana a una numeracion de capitulo."""
     texto = texto.strip()
 
     return (
@@ -569,7 +548,6 @@ def normalizar_titulo(texto):
 
 
 def quitar_titulo_repetido(texto, titulo):
-    """Quita el titulo del libro cuando aparece repetido en los primeros parrafos."""
     titulo_norm = normalizar_titulo(titulo)
     salida = []
 
@@ -591,15 +569,12 @@ def quitar_titulo_repetido(texto, titulo):
 
 
 def separar_encabezado(bloque):
-    """Separa los parrafos iniciales que son encabezado (hasta 3) del cuerpo."""
     parrafos = [p.strip() for p in bloque.split("\n\n") if p.strip()]
     encabezados = []
 
     while parrafos and len(encabezados) < 3 and es_parrafo_encabezado(parrafos[0]):
         encabezados.append(parrafos.pop(0))
 
-    # [NUEVO] numeracion seguida de un subtitulo en formato normal:
-    # "CAPITULO I" + "El nacimiento del heroe" -> "CAPITULO I. El nacimiento del heroe"
     if (
         encabezados
         and es_numeracion(encabezados[-1])
@@ -613,11 +588,6 @@ def separar_encabezado(bloque):
 
 
 def construir_capitulos(texto):
-    """
-    Devuelve una lista de capitulos:
-      {"indice", "etiqueta", "texto", "palabras", "offset"}
-    offset = palabras del texto limpio que hay antes del capitulo.
-    """
     capitulos = []
     etiqueta_pendiente = ""
     offset = 0
@@ -631,8 +601,6 @@ def construir_capitulos(texto):
             etiqueta_pendiente = ""
 
         if not cuerpo.strip():
-            # bloque que solo tenia encabezado (p. ej. "CAPITULO I" y luego el
-            # titulo en otra linea): su etiqueta se pasa al bloque siguiente
             etiqueta_pendiente = etiqueta
             offset += palabras_bloque
             continue
@@ -653,10 +621,6 @@ def construir_capitulos(texto):
 
 
 def unidades_de_texto(texto):
-    """
-    Divide un texto en unidades de corte: (texto, palabras, separador_previo).
-    Los parrafos muy largos se dividen en oraciones para poder cortarlos.
-    """
     unidades = []
 
     for parrafo in (p.strip() for p in texto.split("\n\n")):
@@ -669,8 +633,6 @@ def unidades_de_texto(texto):
             unidades.append((parrafo, n, "\n\n"))
             continue
 
-        # Respetar iniciales y abreviaturas: el punto de K. no termina
-        # necesariamente la oración. Solo es un corte auxiliar de párrafo largo.
         from fuentes_estructuradas import safe_sentence_spans
         oraciones = [parrafo[a:b] for a,b in safe_sentence_spans(parrafo)]
 
@@ -692,38 +654,25 @@ def unir_unidades(unidades):
 
 
 def numero_de_partes(n_palabras, min_p, max_p, objetivo):
-    """
-    Cuantas partes de tamano parecido conviene para un capitulo de n_palabras.
-    Si no existe una division con todas las partes dentro de [min_p, max_p],
-    se prefiere NO dividir y el fragmento queda marcado como fuera de rango.
-    """
     if n_palabras <= max_p:
         return 1
-
     n = max(1, int(n_palabras / objetivo + 0.5))
-
     while n_palabras / n > max_p:
         n += 1
-
     while n > 1 and n_palabras / n < min_p:
         n -= 1
-
     return n
 
 
 def partir_balanceado(unidades, n_partes):
-    """Reparte las unidades en n_partes de tamano parecido, cortando donde se pueda entre parrafos."""
     if n_partes <= 1 or len(unidades) < n_partes:
         return [unidades]
-
     total = sum(u[1] for u in unidades)
     acumulado = []
     suma = 0
-
     for _, n, _ in unidades:
         suma += n
         acumulado.append(suma)
-
     cortes = []
     previo = 0
 
@@ -732,7 +681,6 @@ def partir_balanceado(unidades, n_partes):
         mejor = None
         mejor_costo = None
 
-        # corte "antes de la unidad i": palabras previas = acumulado[i - 1]
         for i in range(previo + 1, len(unidades) - (n_partes - k) + 1):
             costo = abs(acumulado[i - 1] - ideal)
 
@@ -756,7 +704,6 @@ def partir_balanceado(unidades, n_partes):
 
 
 def piezas_desde_capitulos(capitulos, min_p, max_p, objetivo):
-    """Un capitulo largo se convierte en varias piezas balanceadas; los demas, en una."""
     piezas = []
 
     for cap in capitulos:
@@ -802,11 +749,6 @@ def palabras_de_grupo(grupo):
 
 
 def unir_cortas(piezas, min_p, max_p):
-    """
-    Junta piezas consecutivas hasta alcanzar min_p sin pasar de max_p.
-    Un grupo que no logra el minimo se absorbe en el anterior si cabe;
-    si no, queda como fragmento corto (se marca en estado_rango).
-    """
     grupos = []
     acumulado = []
 
@@ -835,7 +777,6 @@ def unir_cortas(piezas, min_p, max_p):
     if acumulado:
         grupos.append(acumulado)
 
-    # absorber grupos cortos en el anterior cuando cabe
     resultado = []
 
     for grupo in grupos:
@@ -878,8 +819,6 @@ def estado_rango(n_palabras, min_p, max_p):
 
 
 def compactar_para_tsv(texto):
-    # csv.DictWriter entrecomilla correctamente las celdas multilínea.
-    # Conservar los párrafos es necesario para la revisión literaria.
     texto = texto.replace("\r\n", "\n").replace("\r", "\n")
     texto = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]", "", texto)
     return re.sub(r"[ \t]+", " ", texto).strip()
@@ -892,10 +831,7 @@ def segmentar_libro(texto_limpio, min_p, max_p, objetivo):
 
     return capitulos, grupos
 
-
-# ----------------------------------------------------------------------------
-# Programa principal
-# ----------------------------------------------------------------------------
+#main
 
 CAMPOS_TSV = [
     "candidato_id", "book_id", "title", "author",

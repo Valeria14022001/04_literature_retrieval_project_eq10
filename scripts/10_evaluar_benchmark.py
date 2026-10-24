@@ -1,4 +1,3 @@
-"""Ejecuta las 12 configuraciones y evalúa contra los qrels de desarrollo."""
 import argparse
 from collections import Counter, defaultdict
 import csv

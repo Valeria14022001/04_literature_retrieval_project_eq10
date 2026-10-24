@@ -35,11 +35,6 @@ CAMPOS_REPORTE_SELECCION = [
     "elegibles", "cuota", "seleccionados", "zonas_vacias", "nota",
 ]
 
-
-# ----------------------------------------------------------------------------
-# Lectura
-# ----------------------------------------------------------------------------
-
 def leer_candidatos(ruta):
     filas = []
 
@@ -80,18 +75,9 @@ def huella_archivo(ruta):
     return hashlib.sha1(ruta.read_bytes()).hexdigest()
 
 
-# ----------------------------------------------------------------------------
-# Importancia (por obra)
-# ----------------------------------------------------------------------------
+# Importancia
 
 def puntuar_obra(cands):
-    """
-    Agrega a cada candidato (dict) de UNA obra:
-      q_score      cercania a las consultas de "momento importante" (0-1)
-      central      cercania al vocabulario central de la obra (0-1)
-      consulta_ganadora
-    El TF-IDF se ajusta con todos los candidatos de la obra.
-    """
     n = len(cands)
 
     if n == 1:
@@ -127,7 +113,6 @@ def puntuar_obra(cands):
 
 
 def puntaje_en_zona(cand, zona):
-    """Importancia final del candidato dentro de su zona: consultas + centralidad + cercania al punto objetivo."""
     lo, hi, objetivo = zona
     semiancho = max(objetivo - lo, min(hi, 1.0) - objetivo, 1e-9)
     posicion = max(0.0, 1.0 - abs(cand["centro_rel"] - objetivo) / semiancho)
@@ -141,9 +126,7 @@ def puntaje_en_zona(cand, zona):
     return puntaje
 
 
-# ----------------------------------------------------------------------------
-# Tipo, cuotas y zonas
-# ----------------------------------------------------------------------------
+# Tipo de obra y cuota y zonas
 
 def tipo_de_obra(cands, total_palabras, umbral_novela):
     declarado = (cands[0].get("tipo") or "").strip().lower()
@@ -175,7 +158,6 @@ def cuota_de_obra(obra, escala, args):
 
 
 def zonas_de_obra(tipo, k):
-    """Lista de (desde, hasta, punto_objetivo) con posiciones relativas 0-1."""
     if tipo == "cuento" and k == len(cfg.ZONAS_CUENTO):
         return list(cfg.ZONAS_CUENTO)
 
@@ -183,11 +165,6 @@ def zonas_de_obra(tipo, k):
 
 
 def elegir_por_zonas(elegibles, zonas):
-    """
-    Un fragmento por zona: el de mayor puntaje dentro de la zona (sin mover
-    fragmentos de una zona a otra). Si una zona queda sin candidatos, se toma el
-    mas cercano a su punto objetivo. Devuelve (lista de (candidato, etiqueta_zona), zonas_vacias).
-    """
     if len(elegibles) <= len(zonas):
         return [(c, "todas") for c in sorted(elegibles, key=lambda c: c["centro_rel"])], 0
 
@@ -274,7 +251,6 @@ def preparar_obras(candidatos, args, excluir):
 
 
 def buscar_escala(obras, args):
-    """Escala (multiplicador de cuotas de novelas) que deja el total mas cerca de --ajustar-a."""
     mejor_escala, mejor_dif = 1.0, None
 
     for paso in range(1, 801):
@@ -288,9 +264,7 @@ def buscar_escala(obras, args):
     return round(mejor_escala, 3)
 
 
-# ----------------------------------------------------------------------------
-# Reportes
-# ----------------------------------------------------------------------------
+# Reporte
 
 def escribir_distribucion(ruta, filas):
     acumulado = defaultdict(lambda: [0, 0])
